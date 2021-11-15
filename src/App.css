@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'RegEstedad';
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Regular.woff2) format('woff');
+  /* src: url(./assets/fonts/Estedad/woff2/Estedad-Black.woff2) format('woff'); */
+  /* src: url(./assets/fonts/Estedad/woff2/Estedad-ExtraLight.woff2) format('woff'); */
+  /* src: url(./assets/fonts/Estedad/woff2/Estedad-SemiBold.woff2) format('woff'); */
+  /* src: url(./assets/fonts/Estedad/woff2/Estedad-Thin.woff2) format('woff'); */
+  }
+  @font-face {
+    font-family: 'MedEstedad';
+      src: url(./assets/fonts/Estedad/woff2/Estedad-Medium.woff2) format('woff');
+
+  }
+  @font-face {
+    font-family: 'BEstedad';
+   src: url(./assets/fonts/Estedad/woff2/Estedad-Bold.woff2) format('woff');
+  }
+  @font-face {
+    font-family: 'XBEstedad';
+     src: url(./assets/fonts/Estedad/woff2/Estedad-ExtraBold.woff2) format('woff');
+
+  }
+  @font-face {
+    font-family: 'LightEstedad';
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Light.woff2) format('woff');
+
+  }
+
+
+body {
+background-color: rgb(220, 220, 66);
+direction: rtl;
+font-family: 'MedEstedad';
+}
+
+.activeButton {
+    color: white;
+    background-color: blue;
+}
+
+.warning {
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'XBEstedad';
+}
+header {
+    background-color: rgb(116, 116, 116);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+header h1 {
+    font-family: 'BEstedad';
+}
+
+header ul li {
+    font-family: 'LightEstedad';
+    list-style: none;
+}
+input {
+    background-color: white;
+}
+
