@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ListItem from "../Components/ListItem";
+import ListItem from "../components/ListItem";
 import "../App.css";
+import {Link, Routes, Route } from "react-router-dom";
 
 class TodoList extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class TodoList extends Component {
       searchterm: "",
       searchtodolist: [],
       filter: "all",
+      editItem: "",
     };
   }
 
@@ -33,6 +35,7 @@ class TodoList extends Component {
       todolist: newlist,
       addtodo: "",
       searchtodolist: [],
+      filter: "all",
     });
   };
 
@@ -60,23 +63,32 @@ class TodoList extends Component {
     const sure = window.confirm("آیا از حذف کردن این ردیف مطمئن هستید؟");
     if (sure === true) {
       let newlist = [];
-
-      !this.state.searchterm
-        ? (newlist = this.state.todolist)
-        : (newlist = this.state.searchtodolist);
-
-      let anotherlist = newlist.filter((item) => {
+      let anotherlist = [];
+      newlist = this.state.todolist.filter((item) => {
         return item["key"] !== itemToBeRemoved;
       });
-
-      !this.state.searchterm
-        ? this.setState({
-            todolist: anotherlist,
-          })
-        : this.setState({
-            searchtodolist: anotherlist,
-          });
+      this.setState({
+        todolist: newlist,
+      });
+      anotherlist = this.state.searchtodolist.filter((item) => {
+        return item["key"] !== itemToBeRemoved;
+      });
+      this.setState({
+        searchtodolist: anotherlist,
+      });
     }
+  };
+
+  handleBlurItem = (itemToBeBlured, event) => {
+    let editList = this.state.todolist.map((item) => {
+      if (item.key === itemToBeBlured.id) {
+        item.content = event.target.textContent;
+      }
+      return item;
+    });
+    this.setState({
+      todolist: editList,
+    });
   };
 
   handleSearch = (event) => {
@@ -164,14 +176,9 @@ class TodoList extends Component {
   }
   render() {
     const searchNotFoundTodo =
-      this.state.searchterm &&
-      (!this.state.todolist
-        .map((item) => item["content"])
-        .includes(this.state.searchterm) ||
-        !this.state.searchtodolist
-          .map((item) => item["content"])
-          .includes(this.state.searchterm)) ? (
-        <div className="warning"> موردی یافت نشد </div>
+      this.state.searchterm.length !== 0 &&
+      this.state.searchtodolist.length === 0 ? (
+        <div className="warning"> موردی یافت نشد! </div>
       ) : (
         ""
       );
@@ -194,6 +201,7 @@ class TodoList extends Component {
                 content={item.content}
                 handleCheckboxChange={this.handleCheckboxUpdate}
                 handleDelete={this.handleDeleteItem}
+                handleBlur={this.handleBlurItem}
               />
             );
           })
@@ -206,65 +214,192 @@ class TodoList extends Component {
                 content={item.content}
                 handleCheckboxChange={this.handleCheckboxUpdate}
                 handleDelete={this.handleDeleteItem}
+                handleBlur={this.handleBlurItem}
               />
             );
           });
 
     return (
       <>
-        <div style={{ display: "grid", placeItems: "center" }}>
-          <input
-            type="text"
-            value={this.state.searchterm}
-            placeholder="جستجو ..."
-            style={{ width: "-webkit-fill-available" }}
-            onChange={this.handleSearch}
-          />
+        <div></div>
+        <br />
+        <div>
+          <div className="filterContainer">
+            <div className="itemContainer1">
+              <div>
+                  <input
+                    type="text"
+                    value={this.state.searchterm}
+                    placeholder="جستجو ..."
+                    style={{ width: "-webkit-fill-available" }}
+                    onChange={this.handleSearch}
+                  />
+              </div>
+              <div>
+                <div>فعالیت جدید را اضافه نمایید</div>
+                <form onSubmit={this.handleSubmit}>
+                  <input
+                    type="text"
+                    value={this.state.addtodo}
+                    onChange={this.handleChange}
+                  />
+                  <input className="BTN" type="submit" value="اضافه" />
+                </form>
+              </div>
+            </div>
+            <div className="itemContainer2">
+              <fieldset className="filter1ItemContainer2">
+                <legend>فیلتر با ...</legend>
+                <Link to="/?filter=all">
+                  <button
+                    className={
+                      this.state.filter === "all" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("all")}
+                  >
+                    همه‌ی فعالیت‌ها
+                  </button>
+                </Link>
+                <Link to="/?filter=done">
+                  <button
+                    className={
+                      this.state.filter === "done" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("done")}
+                  >
+                    انجام شده‌ها
+                  </button>
+                </Link>
+                <Link to="/?filter=todo">
+                  <button
+                    className={
+                      this.state.filter === "todo" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("todo")}
+                  >
+                    انجام نشده ها
+                  </button>
+                </Link>
+              </fieldset>
+
+              <fieldset className="filter2ItemContainer2">
+                <legend> کدام فعالیت ها حذف شوند؟</legend>
+                <button className="BTN" onClick={this.handleClearAll}>
+                  {" "}
+                  همه‌ی فعالیت‌ها
+                </button>
+                <button className="BTN" onClick={this.handleClearDone}>
+                  انجام شده‌ها
+                </button>
+              </fieldset>
+            </div>
+          </div>
+          <br />
+          <div>
+            <br />
+            {List}
+            {emptyList}
+            {searchNotFoundTodo}
+          </div>
         </div>
-        <br />
-        <fieldset>
-          <legend>فیلتر با ...</legend>
-          <button
-            className={this.state.filter === "all" ? `${"activeButton"}` : ""}
-            onClick={() => this.handleFilter("all")}
-          >
-            همه‌ی فعالیت‌ها
-          </button>
-          <button
-            className={this.state.filter === "done" ? `${"activeButton"}` : ""}
-            onClick={() => this.handleFilter("done")}
-          >
-            انجام شده‌ها
-          </button>
-          <button
-            className={this.state.filter === "todo" ? `${"activeButton"}` : ""}
-            onClick={() => this.handleFilter("todo")}
-          >
-            انجام نشده ها
-          </button>
-        </fieldset>
-        <br />
-        <fieldset>
-          <legend> کدام فعالیت ها حذف شوند؟</legend>
-          <button onClick={this.handleClearAll}> همه‌ی فعالیت‌ها</button>
-          <button onClick={this.handleClearDone}>انجام شده‌ها</button>
-        </fieldset>
-        <br />
-        <div>فعالیت جدید را اضافه نمایید</div>
-        <form onSubmit={this.handleSubmit}>
-          <input
-            type="text"
-            value={this.state.addtodo}
-            onChange={this.handleChange}
-          />
-          <input type="submit" value="اضافه" />
-        </form>
-        <br />
-        {List}
-        {emptyList}
-        {searchNotFoundTodo}
+
+        <Routes>
+          <Route path="/?filter=all" element={<TodoList />} />
+          <Route path="/?filter=done" element={<TodoList />} />
+          <Route path="/?filter=todo" element={<TodoList />} />
+        </Routes>
       </>
     );
   }
 }
 export default TodoList;
+
+// -----------------------------------------------------------------------------------------------------------
+// var TextInput = React.createClass({
+//   handleInput: function() {
+//     var input = React.findDOMNode(this.refs.userInput)
+//     this.props.saveInput(input.value)
+//     input.value = ''
+//   },
+
+//   render: function() {
+//     var label = this.props.label
+
+//     return (
+//       <div class="form-group">
+//         <h3><label for="input-{ label }">{ label }</label></h3>
+//         <input
+//           type="text"
+//           class="form-control"
+//           id="input-{ label }"
+//           ref="userInput"
+//          />
+//         <button onClick={ this.handleInput }>Save</button>
+//       </div>
+//     )
+//   }
+// })
+
+// var TextField = React.createClass({
+
+//   render: function() {
+//     var label = this.props.label || 'Label'
+//     var text = this.props.text || 'Nothing yet'
+
+//     return (
+//       <div>
+//         <h3>{ label }</h3>
+//         <p>{ text }</p>
+//       </div>
+//     )
+//   }
+// })
+
+// var Form = React.createClass({
+//   getInitialState: function() {
+
+//     return {
+//       userIsEditing: false,
+//       favoriteFlavor: 'Vanilla'
+//     }
+//   },
+//   toggleEditing: function() {
+//     var userIsEditing = !this.state.userIsEditing
+//     this.setState({
+//       userIsEditing: userIsEditing
+//     })
+//     this.handleSave()
+//   },
+//   saveInput: function(input) {
+//     this.setState({
+//       favoriteFlavor: input
+//     })
+//   },
+
+//   render: function() {
+//     var userIsEditing = this.state.userIsEditing
+//     if (userIsEditing) {
+//         return (
+//           <div>
+//             <TextInput
+//               label={ 'Favorite flavor' }
+//               saveInput={ this.saveInput }
+//              />
+//             <button onClick={ this.toggleEditing }>Done</button>
+//           </div>
+//         )
+//     }
+//     return (
+//       <div>
+//         <TextField
+//           label={ 'Favorite flavor' }
+//           text={ this.state.favoriteFlavor }
+//         />
+//         <button onClick={ this.toggleEditing }>Edit</button>
+//       </div>
+
+//     )
+//   }
+// })
+
+// React.render(<Form />, document.getElementById('app'))

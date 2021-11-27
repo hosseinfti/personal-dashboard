@@ -1,0 +1,6562 @@
+[
+  {
+    "id": 14256,
+    "coord": {
+      "lon": 48.570728,
+      "lat": 34.790878
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "آزادشهر"
+      },
+      {
+        "de": "Azad Shahr"
+      }
+    ],
+    "name": "Azadshahr",
+    "stat": {
+      "level": 1.0,
+      "population": 514102
+    },
+    "stations": [
+      {
+        "id": 7030,
+        "dist": 9,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 23814,
+    "coord": {
+      "lon": 47.055302,
+      "lat": 34.383801
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "کهریز"
+      }
+    ],
+    "name": "Kahriz",
+    "stat": {
+      "level": 1.0,
+      "population": 766706
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 24851,
+    "coord": {
+      "lon": 47.9725,
+      "lat": 34.073399
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "نور آباد"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Nurabad%2C_Lorestan"
+      },
+      {
+        "ru": "Нурабад"
+      }
+    ],
+    "name": "Nurabad",
+    "stat": {
+      "level": 1.0,
+      "population": 73528
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 80,
+        "kf": 1
+      },
+      {
+        "id": 7024,
+        "dist": 75,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 49,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 32723,
+    "coord": {
+      "lon": 52.309422,
+      "lat": 35.23455
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 116401
+    },
+    "langs": [
+      {
+        "fa": "ايستگاه گرمسار"
+      }
+    ],
+    "name": "Istgah-e Garmsar",
+    "stat": {
+      "level": 1.0,
+      "population": 49491
+    },
+    "stations": [
+      {
+        "id": 7036,
+        "dist": 99,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 32767,
+    "coord": {
+      "lon": 51.56889,
+      "lat": 35.439442
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "قرچك"
+      }
+    ],
+    "name": "Qarchak",
+    "stat": {
+      "level": 1.0,
+      "population": 251834
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 36,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 48,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 41210,
+    "coord": {
+      "lon": 49.195999,
+      "lat": 36.213001
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111452
+    },
+    "langs": [
+      {
+        "fa": "خرم درّه"
+      }
+    ],
+    "name": "Khorram Darreh",
+    "stat": {
+      "level": 1.0,
+      "population": 50528
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 76,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 111421,
+    "coord": {
+      "lon": 56.563992,
+      "lat": 30.81271
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "زرند"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Zarand%2C_Iran"
+      }
+    ],
+    "name": "Zarand",
+    "stat": {
+      "level": 1.0,
+      "population": 58983
+    },
+    "stations": [
+      {
+        "id": 7038,
+        "dist": 70,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 111453,
+    "coord": {
+      "lon": 48.478699,
+      "lat": 36.673599
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 111452
+    },
+    "langs": [
+      {
+        "fa": "زنجان"
+      }
+    ],
+    "name": "Zanjan",
+    "stat": {
+      "level": 1.0,
+      "population": 357471
+    },
+    "stations": [
+      {
+        "id": 7059,
+        "dist": 15,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 111822,
+    "coord": {
+      "lon": 54.3675,
+      "lat": 31.897221
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "یزد"
+      }
+    ],
+    "name": "Yazd",
+    "stat": {
+      "level": 1.0,
+      "population": 477905
+    },
+    "stations": [
+      {
+        "id": 7060,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 112214,
+    "coord": {
+      "lon": 51.645699,
+      "lat": 35.3242
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "ورامين"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Varamin"
+      },
+      {
+        "ru": "Варамин"
+      }
+    ],
+    "name": "Varamin",
+    "stat": {
+      "level": 1.0,
+      "population": 179603
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 51,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 51,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 112646,
+    "coord": {
+      "lon": 59.21949,
+      "lat": 35.27401
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "تربت حیدریه"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Torbat-e_Heydarieh"
+      }
+    ],
+    "name": "Torbat-e Heydariyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 125633
+    },
+    "zoom": 7
+  },
+  {
+    "id": 112656,
+    "coord": {
+      "lon": 50.87376,
+      "lat": 36.816261
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "تنکابن"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Tonekabon"
+      },
+      {
+        "ru": "Тонекабон"
+      }
+    ],
+    "name": "Tonekabon",
+    "stat": {
+      "level": 1.0,
+      "population": 37501
+    },
+    "stations": [
+      {
+        "id": 7049,
+        "dist": 20,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 112931,
+    "coord": {
+      "lon": 51.421509,
+      "lat": 35.694389
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLC",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "تهران"
+      }
+    ],
+    "name": "Tehran",
+    "stat": {
+      "level": 1.0,
+      "population": 7153309
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 1
+  },
+  {
+    "id": 113343,
+    "coord": {
+      "lon": 48.903702,
+      "lat": 37.8008
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "هشتپر"
+      }
+    ],
+    "name": "Hashtpar",
+    "stat": {
+      "level": 1.0,
+      "population": 45305
+    },
+    "stations": [
+      {
+        "id": 7029,
+        "dist": 81,
+        "kf": 1
+      },
+      {
+        "id": 7055,
+        "dist": 72,
+        "kf": 1
+      },
+      {
+        "id": 7214,
+        "dist": 80,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 113491,
+    "coord": {
+      "lon": 49.6959,
+      "lat": 36.069599
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 443793
+    },
+    "langs": [
+      {
+        "fa": "سيَهدِهان"
+      }
+    ],
+    "name": "Takestan",
+    "stat": {
+      "level": 1.0,
+      "population": 71499
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 37,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 113508,
+    "coord": {
+      "lon": 47.1133,
+      "lat": 36.400902
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "تکاب"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Takab"
+      }
+    ],
+    "name": "Takab",
+    "stat": {
+      "level": 1.0,
+      "population": 51541
+    },
+    "zoom": 8
+  },
+  {
+    "id": 113632,
+    "coord": {
+      "lon": 54.20882,
+      "lat": 31.747101
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "تَفت"
+      },
+      {
+        "ru": "Тафт"
+      }
+    ],
+    "name": "Taft",
+    "stat": {
+      "level": 1.0,
+      "population": 19394
+    },
+    "stations": [
+      {
+        "id": 7060,
+        "dist": 18,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 113646,
+    "coord": {
+      "lon": 46.291901,
+      "lat": 38.080002
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "تبریز"
+      }
+    ],
+    "name": "Tabriz",
+    "stat": {
+      "level": 1.0,
+      "population": 1424641
+    },
+    "stations": [
+      {
+        "id": 7058,
+        "dist": 7,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 113659,
+    "coord": {
+      "lon": 56.92437,
+      "lat": 33.59586
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "طبس"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Tabas"
+      },
+      {
+        "ru": "Табас"
+      }
+    ],
+    "name": "Tabas",
+    "stat": {
+      "level": 1.0,
+      "population": 49993
+    },
+    "stations": [
+      {
+        "id": 7046,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 114049,
+    "coord": {
+      "lon": 47.600399,
+      "lat": 34.783699
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "سنقر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Songhor"
+      }
+    ],
+    "name": "Sonqor",
+    "stat": {
+      "level": 1.0,
+      "population": 43174
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 62,
+        "kf": 1
+      },
+      {
+        "id": 7025,
+        "dist": 74,
+        "kf": 1
+      },
+      {
+        "id": 7030,
+        "dist": 87,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 114259,
+    "coord": {
+      "lon": 55.6814,
+      "lat": 29.452
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "سیرجان"
+      }
+    ],
+    "name": "Sirjan",
+    "stat": {
+      "level": 1.0,
+      "population": 207645
+    },
+    "zoom": 5
+  },
+  {
+    "id": 114584,
+    "coord": {
+      "lon": 48.856701,
+      "lat": 32.045502
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "شوشتر"
+      }
+    ],
+    "name": "Shushtar",
+    "stat": {
+      "level": 1.0,
+      "population": 77507
+    },
+    "stations": [
+      {
+        "id": 7013,
+        "dist": 60,
+        "kf": 1
+      },
+      {
+        "id": 7016,
+        "dist": 59,
+        "kf": 1
+      },
+      {
+        "id": 7018,
+        "dist": 79,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 114593,
+    "coord": {
+      "lon": 48.243599,
+      "lat": 32.194199
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "شوش"
+      },
+      {
+        "ca": "Susa"
+      },
+      {
+        "cs": "Susy"
+      },
+      {
+        "de": "Susa"
+      },
+      {
+        "en": "Susa"
+      },
+      {
+        "eo": "Suzo"
+      },
+      {
+        "es": "Susa"
+      },
+      {
+        "fi": "Susa"
+      },
+      {
+        "fr": "Suse"
+      },
+      {
+        "it": "Susa"
+      },
+      {
+        "ja": "スーサ"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Susa"
+      },
+      {
+        "nl": "Susa"
+      },
+      {
+        "no": "Susa"
+      },
+      {
+        "pl": "Suza"
+      },
+      {
+        "pt": "Susa"
+      },
+      {
+        "ru": "Сузы"
+      },
+      {
+        "sh": "Susa"
+      },
+      {
+        "sk": "Súsy"
+      },
+      {
+        "sv": "Susa"
+      }
+    ],
+    "name": "Shush",
+    "stat": {
+      "level": 1.0,
+      "population": 52284
+    },
+    "stations": [
+      {
+        "id": 7013,
+        "dist": 30,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 115019,
+    "coord": {
+      "lon": 52.538799,
+      "lat": 29.6036
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "شیراز"
+      }
+    ],
+    "name": "Shiraz",
+    "stat": {
+      "level": 1.0,
+      "population": 1249942
+    },
+    "stations": [
+      {
+        "id": 7053,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 115770,
+    "coord": {
+      "lon": 50.864441,
+      "lat": 32.325562
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 139677
+    },
+    "langs": [
+      {
+        "fa": "شَهرِ كُرد"
+      },
+      {
+        "ru": "Шахре-Корд"
+      }
+    ],
+    "name": "Shahr-e Kord",
+    "stat": {
+      "level": 1.0,
+      "population": 129153
+    },
+    "stations": [
+      {
+        "id": 7028,
+        "dist": 3,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 115781,
+    "coord": {
+      "lon": 55.118599,
+      "lat": 30.116501
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "شهر بابک"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Shahr-e_Babak"
+      }
+    ],
+    "name": "Shahr-e Babak",
+    "stat": {
+      "level": 1.0,
+      "population": 52409
+    },
+    "zoom": 8
+  },
+  {
+    "id": 116102,
+    "coord": {
+      "lon": 48.664719,
+      "lat": 30.649719
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "شادگان"
+      },
+      {
+        "ru": "Шадеганские"
+      }
+    ],
+    "name": "Shadegan",
+    "stat": {
+      "level": 1.0,
+      "population": 37220
+    },
+    "stations": [
+      {
+        "id": 7017,
+        "dist": 47,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 116402,
+    "coord": {
+      "lon": 53.397141,
+      "lat": 35.57291
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 116401
+    },
+    "langs": [
+      {
+        "fa": "سمنان"
+      }
+    ],
+    "name": "Semnan",
+    "stat": {
+      "level": 1.0,
+      "population": 124826
+    },
+    "stations": [
+      {
+        "id": 7036,
+        "dist": 37,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 116406,
+    "coord": {
+      "lon": 51.566669,
+      "lat": 31.41667
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "سمیرُم"
+      }
+    ],
+    "name": "Semirom",
+    "stat": {
+      "level": 1.0,
+      "population": 27220
+    },
+    "stations": [
+      {
+        "id": 7051,
+        "dist": 86,
+        "kf": 1
+      },
+      {
+        "id": 7081,
+        "dist": 80,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 116667,
+    "coord": {
+      "lon": 50.356602,
+      "lat": 35.021301
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124763
+    },
+    "langs": [
+      {
+        "fa": "ساوه"
+      }
+    ],
+    "name": "Saveh",
+    "stat": {
+      "level": 1.0,
+      "population": 175533
+    },
+    "stations": [
+      {
+        "id": 7034,
+        "dist": 51,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 71,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 116996,
+    "coord": {
+      "lon": 53.060089,
+      "lat": 36.56332
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "تاجان"
+      }
+    ],
+    "name": "Shari-i-Tajan",
+    "stat": {
+      "level": 1.0,
+      "population": 255396
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 14,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 117392,
+    "coord": {
+      "lon": 46.273499,
+      "lat": 36.24992
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "سَقِّز"
+      },
+      {
+        "de": "Saqqez"
+      },
+      {
+        "en": "Saqqez"
+      },
+      {
+        "eo": "Sakezo"
+      },
+      {
+        "ku": "Seqiz"
+      }
+    ],
+    "name": "Saqqez",
+    "stat": {
+      "level": 1.0,
+      "population": 151237
+    },
+    "zoom": 8
+  },
+  {
+    "id": 117574,
+    "coord": {
+      "lon": 46.992298,
+      "lat": 35.3144
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "سنندج"
+      }
+    ],
+    "name": "Sanandaj",
+    "stat": {
+      "level": 1.0,
+      "population": 349176
+    },
+    "stations": [
+      {
+        "id": 7025,
+        "dist": 7,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 117656,
+    "coord": {
+      "lon": 44.765301,
+      "lat": 38.1973
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "سلماس"
+      }
+    ],
+    "name": "Salmas",
+    "stat": {
+      "level": 1.0,
+      "population": 81606
+    },
+    "stations": [
+      {
+        "id": 7056,
+        "dist": 64,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 117793,
+    "coord": {
+      "lon": 46.566898,
+      "lat": 36.679298
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "شاهین دژ"
+      }
+    ],
+    "name": "Shahin Dezh",
+    "stat": {
+      "level": 1.0,
+      "population": 41442
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 84,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 118063,
+    "coord": {
+      "lon": 57.681911,
+      "lat": 36.212601
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "سبزوار"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Sabzevar"
+      },
+      {
+        "ru": "Себзевар"
+      }
+    ],
+    "name": "Sabzevar",
+    "stat": {
+      "level": 1.0,
+      "population": 226183
+    },
+    "stations": [
+      {
+        "id": 7045,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 118191,
+    "coord": {
+      "lon": 50.287998,
+      "lat": 37.137611
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "رودسر"
+      }
+    ],
+    "name": "Rudsar",
+    "stat": {
+      "level": 1.0,
+      "population": 47502
+    },
+    "stations": [
+      {
+        "id": 7049,
+        "dist": 43,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 118367,
+    "coord": {
+      "lon": 51.082901,
+      "lat": 35.4846
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "رباط کریم"
+      }
+    ],
+    "name": "Robat Karim",
+    "stat": {
+      "level": 1.0,
+      "population": 62753
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 30,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 26,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 118704,
+    "coord": {
+      "lon": 56.80545,
+      "lat": 31.265619
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "راور"
+      }
+    ],
+    "name": "Ravar",
+    "stat": {
+      "level": 1.0,
+      "population": 40167
+    },
+    "zoom": 9
+  },
+  {
+    "id": 118743,
+    "coord": {
+      "lon": 49.583191,
+      "lat": 37.280769
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "رشت"
+      }
+    ],
+    "name": "Rasht",
+    "stat": {
+      "level": 1.0,
+      "population": 594590
+    },
+    "stations": [
+      {
+        "id": 7029,
+        "dist": 5,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 118805,
+    "coord": {
+      "lon": 49.409199,
+      "lat": 30.8946
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "رامشیر"
+      }
+    ],
+    "name": "Ramshir",
+    "stat": {
+      "level": 1.0,
+      "population": 19454
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 31,
+        "kf": 1
+      },
+      {
+        "id": 7017,
+        "dist": 44,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 118826,
+    "coord": {
+      "lon": 49.603512,
+      "lat": 31.27997
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "رامهرمز"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Ramhormoz"
+      }
+    ],
+    "name": "Ramhormoz",
+    "stat": {
+      "level": 1.0,
+      "population": 38821
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 60,
+        "kf": 1
+      },
+      {
+        "id": 7016,
+        "dist": 53,
+        "kf": 1
+      },
+      {
+        "id": 7017,
+        "dist": 90,
+        "kf": 1
+      },
+      {
+        "id": 7018,
+        "dist": 80,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 118994,
+    "coord": {
+      "lon": 55.9939,
+      "lat": 30.4067
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "رفسنجان"
+      }
+    ],
+    "name": "Rafsanjan",
+    "stat": {
+      "level": 1.0,
+      "population": 147680
+    },
+    "stations": [
+      {
+        "id": 7038,
+        "dist": 93,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 119115,
+    "coord": {
+      "lon": 58.509548,
+      "lat": 37.105999
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "قوچان"
+      }
+    ],
+    "name": "Quchan",
+    "stat": {
+      "level": 1.0,
+      "population": 111752
+    },
+    "stations": [
+      {
+        "id": 7380,
+        "dist": 98,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 119161,
+    "coord": {
+      "lon": 47.804501,
+      "lat": 35.166401
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "قُروه"
+      }
+    ],
+    "name": "Qorveh",
+    "stat": {
+      "level": 1.0,
+      "population": 87953
+    },
+    "stations": [
+      {
+        "id": 7025,
+        "dist": 72,
+        "kf": 1
+      },
+      {
+        "id": 7030,
+        "dist": 76,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 119208,
+    "coord": {
+      "lon": 50.8764,
+      "lat": 34.640099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 443794
+    },
+    "langs": [
+      {
+        "fa": "قم"
+      }
+    ],
+    "name": "Qom",
+    "stat": {
+      "level": 1.0,
+      "population": 900000
+    },
+    "stations": [
+      {
+        "id": 7034,
+        "dist": 98,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 70,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 119374,
+    "coord": {
+      "lon": 56.2719,
+      "lat": 26.958099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 131222
+    },
+    "langs": [
+      {
+        "fa": "قشم"
+      }
+    ],
+    "name": "Qeshm",
+    "stat": {
+      "level": 1.0,
+      "population": 95000
+    },
+    "stations": [
+      {
+        "id": 7037,
+        "dist": 31,
+        "kf": 1
+      },
+      {
+        "id": 7040,
+        "dist": 43,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 119505,
+    "coord": {
+      "lon": 50.004902,
+      "lat": 36.279701
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 443793
+    },
+    "langs": [
+      {
+        "fa": "قزوین"
+      }
+    ],
+    "name": "Qazvin",
+    "stat": {
+      "level": 1.0,
+      "population": 333635
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 5,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 119730,
+    "coord": {
+      "lon": 45.025501,
+      "lat": 38.891499
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "قره ضیاء الدین"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Qarah_Zia_od_Din"
+      }
+    ],
+    "name": "Qarah Zia od Din",
+    "stat": {
+      "level": 1.0,
+      "population": 31947
+    },
+    "stations": [
+      {
+        "id": 4801,
+        "dist": 93,
+        "kf": 1
+      },
+      {
+        "id": 7083,
+        "dist": 74,
+        "kf": 1
+      },
+      {
+        "id": 7215,
+        "dist": 49,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 120678,
+    "coord": {
+      "lon": 50.98008,
+      "lat": 32.27174
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 139677
+    },
+    "langs": [
+      {
+        "fa": "قَهُفرُخ"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Farrokh_Shahr"
+      }
+    ],
+    "name": "Farrokh Shahr",
+    "stat": {
+      "level": 1.0,
+      "population": 32391
+    },
+    "stations": [
+      {
+        "id": 7028,
+        "dist": 13,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 120694,
+    "coord": {
+      "lon": 59.184391,
+      "lat": 33.72654
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "قاین"
+      }
+    ],
+    "name": "Qayen",
+    "stat": {
+      "level": 1.0,
+      "population": 40157
+    },
+    "stations": [
+      {
+        "id": 7041,
+        "dist": 92,
+        "kf": 1
+      },
+      {
+        "id": 7077,
+        "dist": 88,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 120931,
+    "coord": {
+      "lon": 45.86264,
+      "lat": 34.46109
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "سر پل ذهاب"
+      }
+    ],
+    "name": "Sarpol-e Zahab",
+    "stat": {
+      "level": 1.0,
+      "population": 51611
+    },
+    "zoom": 8
+  },
+  {
+    "id": 120972,
+    "coord": {
+      "lon": 51.7267,
+      "lat": 35.307999
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "پيشيان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Pishva"
+      }
+    ],
+    "name": "Pishva",
+    "stat": {
+      "level": 1.0,
+      "population": 53856
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 56,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 58,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 121110,
+    "coord": {
+      "lon": 45.1413,
+      "lat": 36.701
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "پیرانشهر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Piranshahr"
+      }
+    ],
+    "name": "Piranshahr",
+    "stat": {
+      "level": 1.0,
+      "population": 61973
+    },
+    "zoom": 9
+  },
+  {
+    "id": 121240,
+    "coord": {
+      "lon": 46.356499,
+      "lat": 35.0434
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "پاوه"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Paveh"
+      }
+    ],
+    "name": "Paveh",
+    "stat": {
+      "level": 1.0,
+      "population": 17779
+    },
+    "stations": [
+      {
+        "id": 7025,
+        "dist": 63,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 121380,
+    "coord": {
+      "lon": 47.9174,
+      "lat": 39.648201
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 413931
+    },
+    "langs": [
+      {
+        "fa": "پارس آباد"
+      }
+    ],
+    "name": "Parsabad",
+    "stat": {
+      "level": 1.0,
+      "population": 101661
+    },
+    "zoom": 7
+  },
+  {
+    "id": 121795,
+    "coord": {
+      "lon": 45.098301,
+      "lat": 37.0397
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "اشنویّه"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Oshnavieh"
+      },
+      {
+        "ru": "Ошнуйе"
+      }
+    ],
+    "name": "Oshnaviyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 50661
+    },
+    "stations": [
+      {
+        "id": 7056,
+        "dist": 70,
+        "kf": 1
+      },
+      {
+        "id": 7082,
+        "dist": 97,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 121801,
+    "coord": {
+      "lon": 45.07605,
+      "lat": 37.552738
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "ارومیه"
+      },
+      {
+        "ar": "أرومية"
+      },
+      {
+        "arc": "ܐܘܪܡܝܐ"
+      },
+      {
+        "az": "Urmiyə"
+      },
+      {
+        "ca": "Urmia"
+      },
+      {
+        "de": "Urmia"
+      },
+      {
+        "en": "Urmia"
+      },
+      {
+        "es": "Urmía"
+      },
+      {
+        "fr": "Orumieh"
+      },
+      {
+        "he": "אורמיה"
+      },
+      {
+        "ku": "Urmiye"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Urmia"
+      },
+      {
+        "pt": "Urmia"
+      },
+      {
+        "ru": "Урмия"
+      },
+      {
+        "sv": "Urmia"
+      },
+      {
+        "tg": "Урумия"
+      },
+      {
+        "tr": "Urmiye"
+      }
+    ],
+    "name": "Orumiyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 577307
+    },
+    "stations": [
+      {
+        "id": 7056,
+        "dist": 13,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 121861,
+    "coord": {
+      "lon": 49.705002,
+      "lat": 30.75972
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "امیدیه"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Omidiyeh"
+      }
+    ],
+    "name": "Omidiyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 46983
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 3,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 121959,
+    "coord": {
+      "lon": 51.495998,
+      "lat": 36.648998
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "نو شهر"
+      }
+    ],
+    "name": "Now Shahr",
+    "stat": {
+      "level": 1.0,
+      "population": 40000
+    },
+    "stations": [
+      {
+        "id": 7048,
+        "dist": 3,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 122285,
+    "coord": {
+      "lon": 58.795761,
+      "lat": 36.213291
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "نیشابور"
+      }
+    ],
+    "name": "Neyshabur",
+    "stat": {
+      "level": 1.0,
+      "population": 220929
+    },
+    "stations": [
+      {
+        "id": 7043,
+        "dist": 75,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 122289,
+    "coord": {
+      "lon": 54.327801,
+      "lat": 29.198799
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "نیریز"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Neyriz"
+      }
+    ],
+    "name": "Neyriz",
+    "stat": {
+      "level": 1.0,
+      "population": 45506
+    },
+    "stations": [
+      {
+        "id": 7052,
+        "dist": 68,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 122397,
+    "coord": {
+      "lon": 53.299049,
+      "lat": 36.650791
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "نکا"
+      }
+    ],
+    "name": "Neka",
+    "stat": {
+      "level": 1.0,
+      "population": 48847
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 9,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 122438,
+    "coord": {
+      "lon": 50.607498,
+      "lat": 35.952099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 7648907
+    },
+    "langs": [
+      {
+        "fa": "نَظَرابادِ بُزُرگ"
+      }
+    ],
+    "name": "Nazarabad",
+    "stat": {
+      "level": 1.0,
+      "population": 213388
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 69,
+        "kf": 1
+      },
+      {
+        "id": 7033,
+        "dist": 59,
+        "kf": 1
+      },
+      {
+        "id": 7034,
+        "dist": 54,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 89,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 122698,
+    "coord": {
+      "lon": 45.388,
+      "lat": 36.955299
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "نقده"
+      },
+      {
+        "en": "Naghadeh"
+      },
+      {
+        "fr": "Naghadeh"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Naghadeh"
+      }
+    ],
+    "name": "Naqadeh",
+    "stat": {
+      "level": 1.0,
+      "population": 73528
+    },
+    "stations": [
+      {
+        "id": 7056,
+        "dist": 83,
+        "kf": 1
+      },
+      {
+        "id": 7082,
+        "dist": 78,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 122915,
+    "coord": {
+      "lon": 48.376999,
+      "lat": 34.188499
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "نِهاوِند"
+      },
+      {
+        "el": "Αντιόχεια"
+      },
+      {
+        "en": "Nahavand"
+      },
+      {
+        "fr": "Nahavand"
+      },
+      {
+        "ja": "ニハーヴァンド"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Nahavand"
+      },
+      {
+        "ru": "Нагаванде"
+      }
+    ],
+    "name": "Nahavand",
+    "stat": {
+      "level": 1.0,
+      "population": 76250
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 83,
+        "kf": 1
+      },
+      {
+        "id": 7030,
+        "dist": 77,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 123941,
+    "coord": {
+      "lon": 57.080101,
+      "lat": 27.1467
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 131222
+    },
+    "langs": [
+      {
+        "fa": "ميناب"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Minab"
+      },
+      {
+        "ru": "Минаб"
+      }
+    ],
+    "name": "Minab",
+    "stat": {
+      "level": 1.0,
+      "population": 70790
+    },
+    "stations": [
+      {
+        "id": 7037,
+        "dist": 69,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 124085,
+    "coord": {
+      "lon": 46.102699,
+      "lat": 36.969398
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "میاندوآب"
+      }
+    ],
+    "name": "Miandowab",
+    "stat": {
+      "level": 1.0,
+      "population": 132819
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 42,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 124193,
+    "coord": {
+      "lon": 54.016579,
+      "lat": 32.250141
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "مِيبُد"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Meybod"
+      }
+    ],
+    "name": "Meybod",
+    "stat": {
+      "level": 1.0,
+      "population": 51874
+    },
+    "stations": [
+      {
+        "id": 7060,
+        "dist": 46,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 124274,
+    "coord": {
+      "lon": 54.431782,
+      "lat": 31.591681
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "مِهريز"
+      }
+    ],
+    "name": "Mehriz",
+    "stat": {
+      "level": 1.0,
+      "population": 36720
+    },
+    "stations": [
+      {
+        "id": 7060,
+        "dist": 37,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 124620,
+    "coord": {
+      "lon": 49.303902,
+      "lat": 31.936399
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "مسجد سلیمان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Masjed_Soleyman"
+      }
+    ],
+    "name": "Masjed Soleyman",
+    "stat": {
+      "level": 1.0,
+      "population": 111510
+    },
+    "stations": [
+      {
+        "id": 7016,
+        "dist": 42,
+        "kf": 1
+      },
+      {
+        "id": 7018,
+        "dist": 84,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 124647,
+    "coord": {
+      "lon": 56.574341,
+      "lat": 29.922661
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "بردسیر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bardsir"
+      }
+    ],
+    "name": "Bardsir",
+    "stat": {
+      "level": 1.0,
+      "population": 37192
+    },
+    "stations": [
+      {
+        "id": 7038,
+        "dist": 53,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 124665,
+    "coord": {
+      "lon": 59.606201,
+      "lat": 36.297001
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "مشهد"
+      }
+    ],
+    "name": "Mashhad",
+    "stat": {
+      "level": 1.0,
+      "population": 2307177
+    },
+    "stations": [
+      {
+        "id": 7043,
+        "dist": 7,
+        "kf": 1
+      }
+    ],
+    "zoom": 4
+  },
+  {
+    "id": 124862,
+    "coord": {
+      "lon": 45.774899,
+      "lat": 38.432899
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "مرند"
+      }
+    ],
+    "name": "Marand",
+    "stat": {
+      "level": 1.0,
+      "population": 124191
+    },
+    "stations": [
+      {
+        "id": 4801,
+        "dist": 17,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 125185,
+    "coord": {
+      "lon": 48.823502,
+      "lat": 34.296902
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "ملایر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Malayer"
+      }
+    ],
+    "name": "Malayer",
+    "stat": {
+      "level": 1.0,
+      "population": 176573
+    },
+    "stations": [
+      {
+        "id": 7030,
+        "dist": 68,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 33,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 125188,
+    "coord": {
+      "lon": 50.9767,
+      "lat": 35.665901
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "مَلار"
+      }
+    ],
+    "name": "Malard",
+    "stat": {
+      "level": 1.0,
+      "population": 56745
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 30,
+        "kf": 1
+      },
+      {
+        "id": 7034,
+        "dist": 48,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 47,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 125446,
+    "coord": {
+      "lon": 45.722198,
+      "lat": 36.7631
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "مَه آباد"
+      },
+      {
+        "de": "Mahabad"
+      },
+      {
+        "en": "Mahabad"
+      },
+      {
+        "eo": "Mehabad"
+      },
+      {
+        "es": "Mahabad"
+      },
+      {
+        "fr": "Mahabad"
+      },
+      {
+        "ku": "Mehabad"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Mahabad"
+      },
+      {
+        "nl": "Mehabad"
+      },
+      {
+        "no": "Mahabad"
+      },
+      {
+        "ru": "Махабад"
+      },
+      {
+        "sv": "Mahabad"
+      }
+    ],
+    "name": "Mahabad",
+    "stat": {
+      "level": 1.0,
+      "population": 162434
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 74,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 125897,
+    "coord": {
+      "lon": 50.153511,
+      "lat": 37.19701
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "لنگرود"
+      }
+    ],
+    "name": "Langerud",
+    "stat": {
+      "level": 1.0,
+      "population": 68148
+    },
+    "stations": [
+      {
+        "id": 7029,
+        "dist": 49,
+        "kf": 1
+      },
+      {
+        "id": 7049,
+        "dist": 57,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 126409,
+    "coord": {
+      "lon": 47.606098,
+      "lat": 33.535
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "کوهدشت"
+      }
+    ],
+    "name": "Kuhdasht",
+    "stat": {
+      "level": 1.0,
+      "population": 100208
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 62,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 126914,
+    "coord": {
+      "lon": 54.01944,
+      "lat": 26.557779
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 131222
+    },
+    "langs": [
+      {
+        "fa": "كيش"
+      },
+      {
+        "ru": "Киш"
+      }
+    ],
+    "name": "Kish",
+    "stat": {
+      "level": 1.0,
+      "population": 20922
+    },
+    "stations": [
+      {
+        "id": 7020,
+        "dist": 4,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 126972,
+    "coord": {
+      "lon": 44.952099,
+      "lat": 38.550301
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "خوی"
+      }
+    ],
+    "name": "Khvoy",
+    "stat": {
+      "level": 1.0,
+      "population": 175370
+    },
+    "stations": [
+      {
+        "id": 4801,
+        "dist": 89,
+        "kf": 1
+      },
+      {
+        "id": 7056,
+        "dist": 98,
+        "kf": 1
+      },
+      {
+        "id": 7083,
+        "dist": 93,
+        "kf": 1
+      },
+      {
+        "id": 7215,
+        "dist": 83,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 127033,
+    "coord": {
+      "lon": 50.314968,
+      "lat": 33.22052
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "خوانسار"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Khvansar"
+      }
+    ],
+    "name": "Khvansar",
+    "stat": {
+      "level": 1.0,
+      "population": 21146
+    },
+    "stations": [
+      {
+        "id": 7026,
+        "dist": 97,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 127319,
+    "coord": {
+      "lon": 48.166401,
+      "lat": 30.439699
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "خرمشهر"
+      }
+    ],
+    "name": "Khorramshahr",
+    "stat": {
+      "level": 1.0,
+      "population": 330606
+    },
+    "stations": [
+      {
+        "id": 7012,
+        "dist": 9,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 127349,
+    "coord": {
+      "lon": 48.355831,
+      "lat": 33.487782
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "خرم آباد"
+      }
+    ],
+    "name": "Khorramabad",
+    "stat": {
+      "level": 1.0,
+      "population": 329825
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 127403,
+    "coord": {
+      "lon": 50.078899,
+      "lat": 33.642262
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124763
+    },
+    "langs": [
+      {
+        "fa": "خُمِين"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Khomeyn"
+      }
+    ],
+    "name": "Khomeyn",
+    "stat": {
+      "level": 1.0,
+      "population": 77425
+    },
+    "zoom": 9
+  },
+  {
+    "id": 128008,
+    "coord": {
+      "lon": 48.525799,
+      "lat": 37.6189
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 413931
+    },
+    "langs": [
+      {
+        "fa": "هِرُو"
+      }
+    ],
+    "name": "Herowabad",
+    "stat": {
+      "level": 1.0,
+      "population": 51024
+    },
+    "stations": [
+      {
+        "id": 7055,
+        "dist": 79,
+        "kf": 1
+      },
+      {
+        "id": 7214,
+        "dist": 92,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 128226,
+    "coord": {
+      "lon": 47.064999,
+      "lat": 34.314171
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "کرمانشاه"
+      }
+    ],
+    "name": "Kermanshah",
+    "stat": {
+      "level": 1.0,
+      "population": 621100
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 9,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 128234,
+    "coord": {
+      "lon": 57.078789,
+      "lat": 30.283211
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "کرمان"
+      }
+    ],
+    "name": "Kerman",
+    "stat": {
+      "level": 1.0,
+      "population": 577514
+    },
+    "stations": [
+      {
+        "id": 7038,
+        "dist": 12,
+        "kf": 1
+      }
+    ],
+    "zoom": 5
+  },
+  {
+    "id": 128321,
+    "coord": {
+      "lon": 51.654148,
+      "lat": 29.61949
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "کازرون"
+      }
+    ],
+    "name": "Kazerun",
+    "stat": {
+      "level": 1.0,
+      "population": 94511
+    },
+    "stations": [
+      {
+        "id": 7053,
+        "dist": 91,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 128447,
+    "coord": {
+      "lon": 58.46558,
+      "lat": 35.238312
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "کاشمر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Kashmar"
+      }
+    ],
+    "name": "Kashmar",
+    "stat": {
+      "level": 1.0,
+      "population": 96151
+    },
+    "zoom": 8
+  },
+  {
+    "id": 128477,
+    "coord": {
+      "lon": 51.43644,
+      "lat": 33.983082
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "کاشان"
+      },
+      {
+        "de": "Kashan"
+      },
+      {
+        "en": "Kashan"
+      },
+      {
+        "fr": "Kashan"
+      },
+      {
+        "ja": "カーシャーン"
+      },
+      {
+        "link": "http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D0%B0%D0%BD"
+      },
+      {
+        "nl": "Kashan"
+      },
+      {
+        "pl": "Kashan"
+      },
+      {
+        "ru": "Кашан"
+      }
+    ],
+    "name": "Kashan",
+    "stat": {
+      "level": 1.0,
+      "population": 272359
+    },
+    "stations": [
+      {
+        "id": 7026,
+        "dist": 47,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 128747,
+    "coord": {
+      "lon": 51.0103,
+      "lat": 35.835499
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 7648907
+    },
+    "langs": [
+      {
+        "fa": "کرج"
+      }
+    ],
+    "name": "Karaj",
+    "stat": {
+      "level": 1.0,
+      "population": 1448075
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 31,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 128831,
+    "coord": {
+      "lon": 47.965302,
+      "lat": 34.504299
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "کنگاور"
+      }
+    ],
+    "name": "Kangavar",
+    "stat": {
+      "level": 1.0,
+      "population": 53414
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 76,
+        "kf": 1
+      },
+      {
+        "id": 7030,
+        "dist": 67,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 60,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 128905,
+    "coord": {
+      "lon": 46.935501,
+      "lat": 34.795601
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "کامیاران"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Kamyaran"
+      }
+    ],
+    "name": "Kamyaran",
+    "stat": {
+      "level": 1.0,
+      "population": 61642
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 53,
+        "kf": 1
+      },
+      {
+        "id": 7025,
+        "dist": 50,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 129512,
+    "coord": {
+      "lon": 55.491638,
+      "lat": 37.380711
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 443792
+    },
+    "langs": [
+      {
+        "fa": "كلاله"
+      }
+    ],
+    "name": "Kalaleh",
+    "stat": {
+      "level": 1.0,
+      "population": 33700
+    },
+    "zoom": 9
+  },
+  {
+    "id": 129933,
+    "coord": {
+      "lon": 52.912441,
+      "lat": 36.641151
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "جویبار"
+      }
+    ],
+    "name": "Juybar",
+    "stat": {
+      "level": 1.0,
+      "population": 28404
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 24,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 130245,
+    "coord": {
+      "lon": 46.51722,
+      "lat": 34.796108
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "جوان رود",
+        "link": "http://en.wikipedia.org/wiki/Javanroud"
+      }
+    ],
+    "name": "Javanrud",
+    "stat": {
+      "level": 1.0,
+      "population": 38657
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 77,
+        "kf": 1
+      },
+      {
+        "id": 7025,
+        "dist": 66,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 130802,
+    "coord": {
+      "lon": 46.422699,
+      "lat": 33.637402
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 130801
+    },
+    "langs": [
+      {
+        "fa": "ایلام"
+      }
+    ],
+    "name": "Ilam",
+    "stat": {
+      "level": 1.0,
+      "population": 140940
+    },
+    "stations": [
+      {
+        "id": 7072,
+        "dist": 5,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 131962,
+    "coord": {
+      "lon": 47.586102,
+      "lat": 34.272099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128222
+    },
+    "langs": [
+      {
+        "fa": "هرسین"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Harsin"
+      }
+    ],
+    "name": "Harsin",
+    "stat": {
+      "level": 1.0,
+      "population": 57647
+    },
+    "stations": [
+      {
+        "id": 7022,
+        "dist": 40,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 132144,
+    "coord": {
+      "lon": 48.514561,
+      "lat": 34.799221
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "همدان"
+      }
+    ],
+    "name": "Hamadan",
+    "stat": {
+      "level": 1.0,
+      "population": 528256
+    },
+    "stations": [
+      {
+        "id": 7030,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 132892,
+    "coord": {
+      "lon": 54.43475,
+      "lat": 36.838661
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 443792
+    },
+    "langs": [
+      {
+        "fa": "گرگان"
+      }
+    ],
+    "name": "Gorgan",
+    "stat": {
+      "level": 1.0,
+      "population": 244937
+    },
+    "stations": [
+      {
+        "id": 7047,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 132938,
+    "coord": {
+      "lon": 55.16721,
+      "lat": 37.250038
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 443792
+    },
+    "langs": [
+      {
+        "fa": "گنبد کاووس"
+      }
+    ],
+    "name": "Gonbad-e Qabus",
+    "stat": {
+      "level": 1.0,
+      "population": 131416
+    },
+    "stations": [
+      {
+        "id": 7047,
+        "dist": 78,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 132961,
+    "coord": {
+      "lon": 58.683651,
+      "lat": 34.352859
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "گناباد"
+      }
+    ],
+    "name": "Gonabad",
+    "stat": {
+      "level": 1.0,
+      "population": 43465
+    },
+    "stations": [
+      {
+        "id": 7077,
+        "dist": 29,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 133037,
+    "coord": {
+      "lon": 50.288361,
+      "lat": 33.453701
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "گلپایگان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Golpayegan"
+      }
+    ],
+    "name": "Golpayegan",
+    "stat": {
+      "level": 1.0,
+      "population": 44916
+    },
+    "stations": [
+      {
+        "id": 7026,
+        "dist": 91,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 133595,
+    "coord": {
+      "lon": 54.1371,
+      "lat": 27.665199
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "گراش"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Gerash"
+      }
+    ],
+    "name": "Gerash",
+    "stat": {
+      "level": 1.0,
+      "population": 25316
+    },
+    "stations": [
+      {
+        "id": 7079,
+        "dist": 23,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 134217,
+    "coord": {
+      "lon": 50.516998,
+      "lat": 29.5791
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 139816
+    },
+    "langs": [
+      {
+        "fa": "بندرِ گناوه"
+      }
+    ],
+    "name": "Bandar-e Ganaveh",
+    "stat": {
+      "level": 1.0,
+      "population": 52750
+    },
+    "stations": [
+      {
+        "id": 7069,
+        "dist": 40,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 134518,
+    "coord": {
+      "lon": 52.570702,
+      "lat": 28.8438
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "فیروز آباد"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Firuzabad%2C_Fars"
+      }
+    ],
+    "name": "Firuzabad",
+    "stat": {
+      "level": 1.0,
+      "population": 66558
+    },
+    "stations": [
+      {
+        "id": 7053,
+        "dist": 77,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 134602,
+    "coord": {
+      "lon": 52.522549,
+      "lat": 36.68642
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "قَصَبِه"
+      }
+    ],
+    "name": "Fereydun Kenar",
+    "stat": {
+      "level": 1.0,
+      "population": 34097
+    },
+    "stations": [
+      {
+        "id": 7048,
+        "dist": 94,
+        "kf": 1
+      },
+      {
+        "id": 7050,
+        "dist": 60,
+        "kf": 1
+      },
+      {
+        "id": 7078,
+        "dist": 14,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 134721,
+    "coord": {
+      "lon": 53.648201,
+      "lat": 28.938299
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "فسا"
+      }
+    ],
+    "name": "Fasa",
+    "stat": {
+      "level": 1.0,
+      "population": 98061
+    },
+    "stations": [
+      {
+        "id": 7052,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 134762,
+    "coord": {
+      "lon": 50.560959,
+      "lat": 32.256939
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 139677
+    },
+    "langs": [
+      {
+        "fa": "فارسيان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Farsan"
+      }
+    ],
+    "name": "Farsan",
+    "stat": {
+      "level": 1.0,
+      "population": 25071
+    },
+    "stations": [
+      {
+        "id": 7028,
+        "dist": 26,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 135298,
+    "coord": {
+      "lon": 57.51009,
+      "lat": 37.07645
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201376
+    },
+    "langs": [
+      {
+        "fa": "اسفراین"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Esfarayen"
+      }
+    ],
+    "name": "Esfarayen",
+    "stat": {
+      "level": 1.0,
+      "population": 59678
+    },
+    "zoom": 9
+  },
+  {
+    "id": 135423,
+    "coord": {
+      "lon": 54.97628,
+      "lat": 36.41819
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 116401
+    },
+    "langs": [
+      {
+        "fa": "اِمامشَهر"
+      },
+      {
+        "de": "Emamshahr"
+      },
+      {
+        "en": "Emamshahr"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Shahrud%2C_Iran"
+      }
+    ],
+    "name": "Shahrud",
+    "stat": {
+      "level": 1.0,
+      "population": 131889
+    },
+    "stations": [
+      {
+        "id": 7047,
+        "dist": 75,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 136014,
+    "coord": {
+      "lon": 50.7981,
+      "lat": 30.358601
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126878
+    },
+    "langs": [
+      {
+        "fa": "دو گنبدان"
+      }
+    ],
+    "name": "Do Gonbadan",
+    "stat": {
+      "level": 1.0,
+      "population": 94638
+    },
+    "stations": [
+      {
+        "id": 7015,
+        "dist": 3,
+        "kf": 1
+      },
+      {
+        "id": 7081,
+        "dist": 81,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 136399,
+    "coord": {
+      "lon": 50.6838,
+      "lat": 33.990501
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124763
+    },
+    "langs": [
+      {
+        "fa": "دليجان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Delijan"
+      }
+    ],
+    "name": "Delijan",
+    "stat": {
+      "level": 1.0,
+      "population": 33508
+    },
+    "stations": [
+      {
+        "id": 7026,
+        "dist": 71,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 136702,
+    "coord": {
+      "lon": 47.267899,
+      "lat": 32.694099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 130801
+    },
+    "langs": [
+      {
+        "fa": "دِه لُوان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Dehloran"
+      },
+      {
+        "ru": "Дехлорана"
+      }
+    ],
+    "name": "Dehloran",
+    "stat": {
+      "level": 1.0,
+      "population": 46002
+    },
+    "zoom": 8
+  },
+  {
+    "id": 136987,
+    "coord": {
+      "lon": 50.564579,
+      "lat": 30.794901
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126878
+    },
+    "langs": [
+      {
+        "fa": "دِهدَست"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Dehdasht"
+      }
+    ],
+    "name": "Dehdasht",
+    "stat": {
+      "level": 1.0,
+      "population": 69726
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 84,
+        "kf": 1
+      },
+      {
+        "id": 7015,
+        "dist": 56,
+        "kf": 1
+      },
+      {
+        "id": 7081,
+        "dist": 95,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 137268,
+    "coord": {
+      "lon": 48.183102,
+      "lat": 31.560801
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "سوسنگرد"
+      }
+    ],
+    "name": "Susangerd",
+    "stat": {
+      "level": 1.0,
+      "population": 41443
+    },
+    "stations": [
+      {
+        "id": 7013,
+        "dist": 98,
+        "kf": 1
+      },
+      {
+        "id": 7016,
+        "dist": 92,
+        "kf": 1
+      },
+      {
+        "id": 7018,
+        "dist": 60,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 137956,
+    "coord": {
+      "lon": 54.544441,
+      "lat": 28.75194
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "داراب"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Darab"
+      }
+    ],
+    "name": "Darab",
+    "stat": {
+      "level": 1.0,
+      "population": 63319
+    },
+    "stations": [
+      {
+        "id": 7052,
+        "dist": 81,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 138025,
+    "coord": {
+      "lon": 54.348,
+      "lat": 36.168301
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 116401
+    },
+    "langs": [
+      {
+        "fa": "دامغان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Damghan"
+      }
+    ],
+    "name": "Damghan",
+    "stat": {
+      "level": 1.0,
+      "population": 67694
+    },
+    "stations": [
+      {
+        "id": 7047,
+        "dist": 82,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 138042,
+    "coord": {
+      "lon": 52.064999,
+      "lat": 35.717781
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "دِماوِند"
+      },
+      {
+        "ru": "Дамаванд"
+      }
+    ],
+    "name": "Damavand",
+    "stat": {
+      "level": 1.0,
+      "population": 29144
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 67,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 138742,
+    "coord": {
+      "lon": 59.121231,
+      "lat": 36.645458
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "چناران"
+      }
+    ],
+    "name": "Chenaran",
+    "stat": {
+      "level": 1.0,
+      "population": 46940
+    },
+    "stations": [
+      {
+        "id": 7043,
+        "dist": 65,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 139223,
+    "coord": {
+      "lon": 51.420399,
+      "lat": 36.654999
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "چالوس"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Chalus%2C_Iran"
+      },
+      {
+        "ru": "Чалус"
+      }
+    ],
+    "name": "Chalus",
+    "stat": {
+      "level": 1.0,
+      "population": 69638
+    },
+    "stations": [
+      {
+        "id": 7048,
+        "dist": 3,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 139817,
+    "coord": {
+      "lon": 50.838501,
+      "lat": 28.968399
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 139816
+    },
+    "langs": [
+      {
+        "fa": "بندر بوشهر"
+      }
+    ],
+    "name": "Bandar Bushehr",
+    "stat": {
+      "level": 1.0,
+      "population": 165377
+    },
+    "stations": [
+      {
+        "id": 7019,
+        "dist": 3,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 139889,
+    "coord": {
+      "lon": 46.2089,
+      "lat": 36.521
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142550
+    },
+    "langs": [
+      {
+        "fa": "بوکان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bukan"
+      },
+      {
+        "ru": "Букан"
+      }
+    ],
+    "name": "Bukan",
+    "stat": {
+      "level": 1.0,
+      "population": 213331
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 92,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 140044,
+    "coord": {
+      "lon": 48.751598,
+      "lat": 33.897301
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "بروجرد"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Borujerd"
+      },
+      {
+        "ru": "Боруджерд"
+      }
+    ],
+    "name": "Borujerd",
+    "stat": {
+      "level": 1.0,
+      "population": 251958
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 67,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 38,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 140046,
+    "coord": {
+      "lon": 51.2873,
+      "lat": 31.965231
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 139677
+    },
+    "langs": [
+      {
+        "fa": "بُروجان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Borujen"
+      }
+    ],
+    "name": "Borujen",
+    "stat": {
+      "level": 1.0,
+      "population": 52654
+    },
+    "stations": [
+      {
+        "id": 7028,
+        "dist": 55,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 140097,
+    "coord": {
+      "lon": 51.2159,
+      "lat": 29.2666
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 139816
+    },
+    "langs": [
+      {
+        "fa": "برازجان"
+      },
+      {
+        "en": "Borazjan"
+      },
+      {
+        "id": "Borazjan"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Borazjan"
+      },
+      {
+        "pt": "Borazjan"
+      }
+    ],
+    "name": "Borazjan",
+    "stat": {
+      "level": 1.0,
+      "population": 86059
+    },
+    "stations": [
+      {
+        "id": 7019,
+        "dist": 52,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 140380,
+    "coord": {
+      "lon": 57.329029,
+      "lat": 37.474731
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 6201376
+    },
+    "langs": [
+      {
+        "fa": "بجنورد"
+      }
+    ],
+    "name": "Bojnurd",
+    "stat": {
+      "level": 1.0,
+      "population": 192041
+    },
+    "zoom": 8
+  },
+  {
+    "id": 140463,
+    "coord": {
+      "lon": 59.221142,
+      "lat": 32.86628
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 6201374
+    },
+    "langs": [
+      {
+        "fa": "شهرستان بیرجند"
+      },
+      {
+        "de": "Birjand"
+      },
+      {
+        "en": "Birjand"
+      },
+      {
+        "fr": "Birjand"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Birjand"
+      },
+      {
+        "ru": "Бирдженд"
+      },
+      {
+        "tg": "Бӣрҷанд"
+      }
+    ],
+    "name": "Birjand",
+    "stat": {
+      "level": 1.0,
+      "population": 196982
+    },
+    "stations": [
+      {
+        "id": 7041,
+        "dist": 5,
+        "kf": 1
+      }
+    ],
+    "zoom": 4
+  },
+  {
+    "id": 140521,
+    "coord": {
+      "lon": 47.605061,
+      "lat": 35.866798
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "بيجار"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bijar"
+      },
+      {
+        "ru": "Биджар"
+      }
+    ],
+    "name": "Bijar",
+    "stat": {
+      "level": 1.0,
+      "population": 53871
+    },
+    "stations": [
+      {
+        "id": 7025,
+        "dist": 87,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 140889,
+    "coord": {
+      "lon": 46.056099,
+      "lat": 37.340401
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "بُناب"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bonab"
+      },
+      {
+        "ru": "Бонаб"
+      }
+    ],
+    "name": "Bonab",
+    "stat": {
+      "level": 1.0,
+      "population": 80359
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 6,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 140918,
+    "coord": {
+      "lon": 53.55262,
+      "lat": 36.692348
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "بهشهر"
+      }
+    ],
+    "name": "Behshahr",
+    "stat": {
+      "level": 1.0,
+      "population": 93500
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 32,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 140951,
+    "coord": {
+      "lon": 50.241699,
+      "lat": 30.5959
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "بهبهان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Behbahan"
+      }
+    ],
+    "name": "Behbahan",
+    "stat": {
+      "level": 1.0,
+      "population": 79327
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 55,
+        "kf": 1
+      },
+      {
+        "id": 7015,
+        "dist": 63,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 141584,
+    "coord": {
+      "lon": 45.8853,
+      "lat": 35.997501
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 126584
+    },
+    "langs": [
+      {
+        "fa": "بانِه"
+      },
+      {
+        "ru": "Бани"
+      }
+    ],
+    "name": "Baneh",
+    "stat": {
+      "level": 1.0,
+      "population": 104799
+    },
+    "stations": [
+      {
+        "id": 7164,
+        "dist": 97,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 141665,
+    "coord": {
+      "lon": 54.880669,
+      "lat": 26.55792
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 131222
+    },
+    "langs": [
+      {
+        "fa": "بَندَر لَنگِه"
+      }
+    ],
+    "name": "Bandar-e Lengeh",
+    "stat": {
+      "level": 1.0,
+      "population": 22768
+    },
+    "stations": [
+      {
+        "id": 7021,
+        "dist": 6,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 141668,
+    "coord": {
+      "lon": 49.076279,
+      "lat": 30.429831
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "بندر امام خمینی"
+      }
+    ],
+    "name": "Bandar Emām Khomeynī",
+    "stat": {
+      "level": 1.0,
+      "population": 48061
+    },
+    "stations": [
+      {
+        "id": 7017,
+        "dist": 16,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 141679,
+    "coord": {
+      "lon": 49.4622,
+      "lat": 37.472698
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "بندر انزلی"
+      }
+    ],
+    "name": "Bandar-e Anzali",
+    "stat": {
+      "level": 1.0,
+      "population": 110826
+    },
+    "stations": [
+      {
+        "id": 7029,
+        "dist": 20,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 141681,
+    "coord": {
+      "lon": 56.2808,
+      "lat": 27.186501
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 131222
+    },
+    "langs": [
+      {
+        "fa": "بَندَرِ عَبّاس"
+      },
+      {
+        "da": "Bandar Abbas"
+      },
+      {
+        "de": "Bandar Abbas"
+      },
+      {
+        "en": "Bandar Abbas"
+      },
+      {
+        "fi": "Bandar Abbas"
+      },
+      {
+        "fr": "Bandar Abbas"
+      },
+      {
+        "gl": "Bandar Abbas - بندر عباس"
+      },
+      {
+        "id": "Bandar Abbas"
+      },
+      {
+        "ja": "バンダレ・アッバース"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bandar-Abbas"
+      },
+      {
+        "nl": "Bandar Abbas"
+      },
+      {
+        "pl": "Bandar Abbas"
+      },
+      {
+        "pt": "Bandar Abbas"
+      },
+      {
+        "ru": "Бендер-Аббас"
+      },
+      {
+        "sv": "Bandar Abbas"
+      },
+      {
+        "tg": "Бандар-Аббос"
+      },
+      {
+        "zh": "阿巴斯港"
+      }
+    ],
+    "name": "Bandar Abbas",
+    "stat": {
+      "level": 1.0,
+      "population": 352173
+    },
+    "stations": [
+      {
+        "id": 7037,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 141736,
+    "coord": {
+      "lon": 58.356998,
+      "lat": 29.106001
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 128231
+    },
+    "langs": [
+      {
+        "fa": "بم"
+      },
+      {
+        "ar": "بم"
+      },
+      {
+        "da": "Bam"
+      },
+      {
+        "de": "Bam"
+      },
+      {
+        "en": "Bam"
+      },
+      {
+        "eo": "Bam"
+      },
+      {
+        "fr": "Bam"
+      },
+      {
+        "it": "Bam"
+      },
+      {
+        "ja": "バム"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Bam%2C_Iran"
+      },
+      {
+        "ms": "Bam"
+      },
+      {
+        "nds": "Bam"
+      },
+      {
+        "nl": "Bam"
+      },
+      {
+        "no": "Bam"
+      },
+      {
+        "pl": "Bam"
+      },
+      {
+        "pt": "Bam"
+      },
+      {
+        "ru": "Бам"
+      },
+      {
+        "sv": "Bam"
+      }
+    ],
+    "name": "Bam",
+    "stat": {
+      "level": 1.0,
+      "population": 99268
+    },
+    "zoom": 6
+  },
+  {
+    "id": 142000,
+    "coord": {
+      "lon": 48.441399,
+      "lat": 34.9072
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "بَهار"
+      },
+      {
+        "ru": "Бахар"
+      }
+    ],
+    "name": "Bahar",
+    "stat": {
+      "level": 1.0,
+      "population": 28645
+    },
+    "stations": [
+      {
+        "id": 7030,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 142255,
+    "coord": {
+      "lon": 55.410671,
+      "lat": 31.612829
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "بافق"
+      },
+      {
+        "ru": "Бафк"
+      }
+    ],
+    "name": "Bafq",
+    "stat": {
+      "level": 1.0,
+      "population": 31215
+    },
+    "zoom": 7
+  },
+  {
+    "id": 142358,
+    "coord": {
+      "lon": 52.6576,
+      "lat": 36.702511
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "مَشهَدسَر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Babolsar"
+      }
+    ],
+    "name": "Babolsar",
+    "stat": {
+      "level": 1.0,
+      "population": 48051
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 48,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 142363,
+    "coord": {
+      "lon": 52.678951,
+      "lat": 36.551319
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "بابل"
+      }
+    ],
+    "name": "Babol",
+    "stat": {
+      "level": 1.0,
+      "population": 202796
+    },
+    "stations": [
+      {
+        "id": 7050,
+        "dist": 46,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 142496,
+    "coord": {
+      "lon": 48.930698,
+      "lat": 33.609501
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "ازنا"
+      }
+    ],
+    "name": "Azna",
+    "stat": {
+      "level": 1.0,
+      "population": 47482
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 63,
+        "kf": 1
+      },
+      {
+        "id": 7073,
+        "dist": 74,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 142554,
+    "coord": {
+      "lon": 47.0508,
+      "lat": 37.477901
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "هشترود"
+      }
+    ],
+    "name": "Hashtrud",
+    "stat": {
+      "level": 1.0,
+      "population": 16888
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 82,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 142676,
+    "coord": {
+      "lon": 48.872002,
+      "lat": 38.4291
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "آستارا"
+      }
+    ],
+    "name": "Astara",
+    "stat": {
+      "level": 1.0,
+      "population": 39065
+    },
+    "stations": [
+      {
+        "id": 7055,
+        "dist": 40,
+        "kf": 1
+      },
+      {
+        "id": 7214,
+        "dist": 33,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 142679,
+    "coord": {
+      "lon": 49.944439,
+      "lat": 37.259621
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 133349
+    },
+    "langs": [
+      {
+        "fa": "آستانه اشرفیه"
+      }
+    ],
+    "name": "Astaneh-ye Ashrafiyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 42784
+    },
+    "stations": [
+      {
+        "id": 7029,
+        "dist": 30,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 142872,
+    "coord": {
+      "lon": 48.11853,
+      "lat": 34.78241
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 132142
+    },
+    "langs": [
+      {
+        "fa": "اَسَد آباد"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Asadabad%2C_Iran"
+      },
+      {
+        "ru": "Асадабада"
+      }
+    ],
+    "name": "Asadabad",
+    "stat": {
+      "level": 1.0,
+      "population": 59617
+    },
+    "stations": [
+      {
+        "id": 7030,
+        "dist": 40,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 143052,
+    "coord": {
+      "lon": 52.3694,
+      "lat": 33.376099
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "اردستان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Ardestan"
+      }
+    ],
+    "name": "Ardestan",
+    "stat": {
+      "level": 1.0,
+      "population": 16058
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 84,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 143073,
+    "coord": {
+      "lon": 54.017471,
+      "lat": 32.310009
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111821
+    },
+    "langs": [
+      {
+        "fa": "اردکان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Ardakan"
+      }
+    ],
+    "name": "Ardakan",
+    "stat": {
+      "level": 1.0,
+      "population": 58834
+    },
+    "stations": [
+      {
+        "id": 7060,
+        "dist": 51,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 143083,
+    "coord": {
+      "lon": 48.293301,
+      "lat": 38.249802
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 413931
+    },
+    "langs": [
+      {
+        "fa": "اردبیل"
+      }
+    ],
+    "name": "Ardabil",
+    "stat": {
+      "level": 1.0,
+      "population": 410753
+    },
+    "stations": [
+      {
+        "id": 7055,
+        "dist": 14,
+        "kf": 1
+      },
+      {
+        "id": 7214,
+        "dist": 28,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 143127,
+    "coord": {
+      "lon": 49.689159,
+      "lat": 34.09174
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 124763
+    },
+    "langs": [
+      {
+        "fa": "اراک"
+      }
+    ],
+    "name": "Arak",
+    "stat": {
+      "level": 1.0,
+      "population": 503647
+    },
+    "zoom": 7
+  },
+  {
+    "id": 143534,
+    "coord": {
+      "lon": 52.350719,
+      "lat": 36.469608
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124544
+    },
+    "langs": [
+      {
+        "fa": "آمل"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Amol"
+      },
+      {
+        "ru": "Амоль"
+      }
+    ],
+    "name": "Amol",
+    "stat": {
+      "level": 1.0,
+      "population": 199382
+    },
+    "stations": [
+      {
+        "id": 7048,
+        "dist": 82,
+        "kf": 1
+      },
+      {
+        "id": 7050,
+        "dist": 77,
+        "kf": 1
+      },
+      {
+        "id": 7078,
+        "dist": 34,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 143748,
+    "coord": {
+      "lon": 49.167801,
+      "lat": 36.318699
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111452
+    },
+    "langs": [
+      {
+        "fa": "اِلوِند"
+      },
+      {
+        "ru": "Алванд"
+      }
+    ],
+    "name": "Alvand",
+    "stat": {
+      "level": 1.0,
+      "population": 74889
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 79,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 143860,
+    "coord": {
+      "lon": 51.059299,
+      "lat": 35.659599
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "عَلی شاه عَوَض"
+      },
+      {
+        "ru": "Шахрияр"
+      }
+    ],
+    "name": "Shahriar",
+    "stat": {
+      "level": 1.0,
+      "population": 58849
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 22,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 45,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 143921,
+    "coord": {
+      "lon": 49.694901,
+      "lat": 33.400631
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "الیگودرز"
+      }
+    ],
+    "name": "Aligudarz",
+    "stat": {
+      "level": 1.0,
+      "population": 91041
+    },
+    "zoom": 8
+  },
+  {
+    "id": 144269,
+    "coord": {
+      "lon": 48.261902,
+      "lat": 33.8633
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 125605
+    },
+    "langs": [
+      {
+        "fa": "الشتر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Aleshtar"
+      }
+    ],
+    "name": "Aleshtar",
+    "stat": {
+      "level": 1.0,
+      "population": 27701
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 47,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 144410,
+    "coord": {
+      "lon": 52.779301,
+      "lat": 29.246401
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "اکبر آباد"
+      },
+      {
+        "ru": "Акбарабад"
+      }
+    ],
+    "name": "Akbarabad",
+    "stat": {
+      "level": 1.0,
+      "population": 98342
+    },
+    "stations": [
+      {
+        "id": 7053,
+        "dist": 37,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 144443,
+    "coord": {
+      "lon": 45.894299,
+      "lat": 37.4776
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "اَجَبشَیر"
+      }
+    ],
+    "name": "Ajab Shir",
+    "stat": {
+      "level": 1.0,
+      "population": 29675
+    },
+    "stations": [
+      {
+        "id": 7082,
+        "dist": 25,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 144448,
+    "coord": {
+      "lon": 48.6693,
+      "lat": 31.320299
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "اهواز"
+      },
+      {
+        "ar": "الأحواز"
+      },
+      {
+        "da": "Ahvaz"
+      },
+      {
+        "de": "Ahvaz"
+      },
+      {
+        "en": "Ahvaz"
+      },
+      {
+        "fi": "Ahvaz"
+      },
+      {
+        "fr": "Ahvaz"
+      },
+      {
+        "gl": "Ahvaz - اهواز"
+      },
+      {
+        "id": "Ahvaz"
+      },
+      {
+        "ja": "アフヴァーズ"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Ahvaz"
+      },
+      {
+        "nl": "Ahvaz"
+      },
+      {
+        "pl": "Ahwaz"
+      },
+      {
+        "pt": "Ahvaz"
+      },
+      {
+        "ru": "Ахваз"
+      },
+      {
+        "sv": "Ahvaz"
+      },
+      {
+        "tg": "Аҳвоз"
+      },
+      {
+        "zh": "阿瓦士"
+      }
+    ],
+    "name": "Ahvaz",
+    "stat": {
+      "level": 1.0,
+      "population": 841145
+    },
+    "stations": [
+      {
+        "id": 7018,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 144616,
+    "coord": {
+      "lon": 47.069901,
+      "lat": 38.477402
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 142549
+    },
+    "langs": [
+      {
+        "fa": "آهار"
+      }
+    ],
+    "name": "Ahar",
+    "stat": {
+      "level": 1.0,
+      "population": 94348
+    },
+    "stations": [
+      {
+        "id": 4801,
+        "dist": 95,
+        "kf": 1
+      },
+      {
+        "id": 7058,
+        "dist": 83,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 144696,
+    "coord": {
+      "lon": 49.831501,
+      "lat": 30.7006
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "آغاجاری"
+      }
+    ],
+    "name": "Aghajari",
+    "stat": {
+      "level": 1.0,
+      "population": 21785
+    },
+    "stations": [
+      {
+        "id": 7014,
+        "dist": 15,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 144794,
+    "coord": {
+      "lon": 50.549999,
+      "lat": 36.066669
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 124763
+    },
+    "langs": [
+      {
+        "fa": "آبيِك"
+      }
+    ],
+    "name": "Abyek",
+    "stat": {
+      "level": 1.0,
+      "population": 55128
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 48,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 145034,
+    "coord": {
+      "lon": 49.217999,
+      "lat": 36.146801
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 111452
+    },
+    "langs": [
+      {
+        "fa": "اَبخَر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Abhar"
+      },
+      {
+        "ru": "Абхар"
+      }
+    ],
+    "name": "Abhar",
+    "stat": {
+      "level": 1.0,
+      "population": 69889
+    },
+    "stations": [
+      {
+        "id": 7033,
+        "dist": 75,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 145233,
+    "coord": {
+      "lon": 47.4198,
+      "lat": 32.992599
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 130801
+    },
+    "langs": [
+      {
+        "fa": "آبدانان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Abdanan"
+      }
+    ],
+    "name": "Abdanan",
+    "stat": {
+      "level": 1.0,
+      "population": 19360
+    },
+    "stations": [
+      {
+        "id": 7024,
+        "dist": 94,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 145449,
+    "coord": {
+      "lon": 52.6506,
+      "lat": 31.160801
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 134766
+    },
+    "langs": [
+      {
+        "fa": "آباده"
+      }
+    ],
+    "name": "Abadeh",
+    "stat": {
+      "level": 1.0,
+      "population": 56988
+    },
+    "stations": [
+      {
+        "id": 7051,
+        "dist": 24,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 145459,
+    "coord": {
+      "lon": 48.304298,
+      "lat": 30.339199
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 127082
+    },
+    "langs": [
+      {
+        "fa": "آبادان"
+      }
+    ],
+    "name": "Abadan",
+    "stat": {
+      "level": 1.0,
+      "population": 370180
+    },
+    "stations": [
+      {
+        "id": 7012,
+        "dist": 7,
+        "kf": 1
+      }
+    ],
+    "zoom": 9
+  },
+  {
+    "id": 406993,
+    "coord": {
+      "lon": 51.535801,
+      "lat": 35.3022
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 110791
+    },
+    "langs": [
+      {
+        "fa": "اقباليّه"
+      }
+    ],
+    "name": "Eqbaliyeh",
+    "stat": {
+      "level": 1.0,
+      "population": 36709
+    },
+    "stations": [
+      {
+        "id": 7032,
+        "dist": 47,
+        "kf": 1
+      },
+      {
+        "id": 7074,
+        "dist": 40,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 417594,
+    "coord": {
+      "lon": 51.87944,
+      "lat": 32.03389
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "شهرضا"
+      }
+    ],
+    "name": "Shahreza",
+    "stat": {
+      "level": 1.0,
+      "population": 100790
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 80,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 418521,
+    "coord": {
+      "lon": 51.601292,
+      "lat": 32.68462
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "رهنان"
+      }
+    ],
+    "name": "Rehnan",
+    "stat": {
+      "level": 1.0,
+      "population": 49143
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 25,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 418571,
+    "coord": {
+      "lon": 51.455002,
+      "lat": 32.576698
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "قهدریجان"
+      }
+    ],
+    "name": "Qahderijan",
+    "stat": {
+      "level": 1.0,
+      "population": 29392
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 42,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 418606,
+    "coord": {
+      "lon": 51.366798,
+      "lat": 32.634399
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "نجف آباد"
+      }
+    ],
+    "name": "Najafabad",
+    "stat": {
+      "level": 1.0,
+      "population": 223450
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 47,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 418710,
+    "coord": {
+      "lon": 51.52113,
+      "lat": 32.70018
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "خمینی شهر"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Khomeyni_Shahr"
+      }
+    ],
+    "name": "Khomeyni Shahr",
+    "stat": {
+      "level": 1.0,
+      "population": 277334
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 32,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 418723,
+    "coord": {
+      "lon": 51.526299,
+      "lat": 32.55603
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "کلیشاد"
+      }
+    ],
+    "name": "Kelishad",
+    "stat": {
+      "level": 1.0,
+      "population": 33630
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 37,
+        "kf": 1
+      }
+    ],
+    "zoom": 14
+  },
+  {
+    "id": 418851,
+    "coord": {
+      "lon": 51.509739,
+      "lat": 32.555302
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "ملّاورجان"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Falavarjan"
+      }
+    ],
+    "name": "Mollavarjan",
+    "stat": {
+      "level": 1.0,
+      "population": 49843
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 39,
+        "kf": 1
+      }
+    ],
+    "zoom": 11
+  },
+  {
+    "id": 418863,
+    "coord": {
+      "lon": 51.677608,
+      "lat": 32.657219
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "اصفهان"
+      }
+    ],
+    "name": "Esfahan",
+    "stat": {
+      "level": 1.0,
+      "population": 1547164
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 19,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 418868,
+    "coord": {
+      "lon": 51.69553,
+      "lat": 32.799782
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "دولت آباد"
+      }
+    ],
+    "name": "Dowlatabad",
+    "stat": {
+      "level": 1.0,
+      "population": 33607
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 16,
+        "kf": 1
+      }
+    ],
+    "zoom": 10
+  },
+  {
+    "id": 418896,
+    "coord": {
+      "lon": 51.555561,
+      "lat": 32.61528
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 418862
+    },
+    "langs": [
+      {
+        "fa": "درچه پیاز"
+      }
+    ],
+    "name": "Dorcheh Piaz",
+    "stat": {
+      "level": 1.0,
+      "population": 37462
+    },
+    "stations": [
+      {
+        "id": 7027,
+        "dist": 32,
+        "kf": 1
+      }
+    ],
+    "zoom": 12
+  },
+  {
+    "id": 1113217,
+    "coord": {
+      "lon": 61.501202,
+      "lat": 31.0287
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 1159456
+    },
+    "langs": [
+      {
+        "fa": "زابل"
+      }
+    ],
+    "name": "Zabol",
+    "stat": {
+      "level": 1.0,
+      "population": 121989
+    },
+    "stations": [
+      {
+        "id": 7061,
+        "dist": 8,
+        "kf": 1
+      }
+    ],
+    "zoom": 6
+  },
+  {
+    "id": 1159301,
+    "coord": {
+      "lon": 60.8629,
+      "lat": 29.4963
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPLA",
+      "parent": 1159456
+    },
+    "langs": [
+      {
+        "fa": "زاهدان"
+      }
+    ],
+    "name": "Zahedan",
+    "stat": {
+      "level": 1.0,
+      "population": 551980
+    },
+    "zoom": 6
+  },
+  {
+    "id": 1159362,
+    "coord": {
+      "lon": 60.622501,
+      "lat": 35.243999
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "تربت جام"
+      },
+      {
+        "link": "http://en.wikipedia.org/wiki/Torbat-e_Jam"
+      }
+    ],
+    "name": "Torbat-e Jam",
+    "stat": {
+      "level": 1.0,
+      "population": 58928
+    },
+    "zoom": 7
+  },
+  {
+    "id": 1159384,
+    "coord": {
+      "lon": 60.7756,
+      "lat": 34.740002
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "تايباد"
+      }
+    ],
+    "name": "Taybad",
+    "stat": {
+      "level": 1.0,
+      "population": 37513
+    },
+    "zoom": 9
+  },
+  {
+    "id": 1159716,
+    "coord": {
+      "lon": 61.1577,
+      "lat": 36.544899
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 6201375
+    },
+    "langs": [
+      {
+        "fa": "سرخس"
+      },
+      {
+        "ru": "Сарахс"
+      }
+    ],
+    "name": "Sarakhs",
+    "stat": {
+      "level": 1.0,
+      "population": 46499
+    },
+    "stations": [
+      {
+        "id": 7076,
+        "dist": 10,
+        "kf": 1
+      }
+    ],
+    "zoom": 8
+  },
+  {
+    "id": 1160571,
+    "coord": {
+      "lon": 61.21582,
+      "lat": 28.221069
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 1159456
+    },
+    "langs": [
+      {
+        "fa": "خاش"
+      }
+    ],
+    "name": "Khash",
+    "stat": {
+      "level": 1.0,
+      "population": 69603
+    },
+    "zoom": 8
+  },
+  {
+    "id": 1160939,
+    "coord": {
+      "lon": 60.684761,
+      "lat": 27.20245
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 1159456
+    },
+    "langs": [
+      {
+        "fa": "ايرانشهر"
+      }
+    ],
+    "name": "Iranshahr",
+    "stat": {
+      "level": 1.0,
+      "population": 131232
+    },
+    "stations": [
+      {
+        "id": 7064,
+        "dist": 5,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  },
+  {
+    "id": 1161724,
+    "coord": {
+      "lon": 60.643002,
+      "lat": 25.291901
+    },
+    "country": "IR",
+    "geoname": {
+      "cl": "P",
+      "code": "PPL",
+      "parent": 1159456
+    },
+    "langs": [
+      {
+        "fa": "چابهار"
+      }
+    ],
+    "name": "Chah Bahar",
+    "stat": {
+      "level": 1.0,
+      "population": 47287
+    },
+    "stations": [
+      {
+        "id": 7062,
+        "dist": 31,
+        "kf": 1
+      }
+    ],
+    "zoom": 7
+  }
+  
+]

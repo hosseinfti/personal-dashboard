@@ -1,65 +1,129 @@
 @font-face {
-  font-family: 'RegEstedad';
-  src: url(./assets/fonts/Estedad/woff2/Estedad-Regular.woff2) format('woff');
+  font-family: "RegEstedad";
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Regular.woff2) format("woff");
   /* src: url(./assets/fonts/Estedad/woff2/Estedad-Black.woff2) format('woff'); */
   /* src: url(./assets/fonts/Estedad/woff2/Estedad-ExtraLight.woff2) format('woff'); */
   /* src: url(./assets/fonts/Estedad/woff2/Estedad-SemiBold.woff2) format('woff'); */
   /* src: url(./assets/fonts/Estedad/woff2/Estedad-Thin.woff2) format('woff'); */
-  }
-  @font-face {
-    font-family: 'MedEstedad';
-      src: url(./assets/fonts/Estedad/woff2/Estedad-Medium.woff2) format('woff');
-
-  }
-  @font-face {
-    font-family: 'BEstedad';
-   src: url(./assets/fonts/Estedad/woff2/Estedad-Bold.woff2) format('woff');
-  }
-  @font-face {
-    font-family: 'XBEstedad';
-     src: url(./assets/fonts/Estedad/woff2/Estedad-ExtraBold.woff2) format('woff');
-
-  }
-  @font-face {
-    font-family: 'LightEstedad';
-  src: url(./assets/fonts/Estedad/woff2/Estedad-Light.woff2) format('woff');
-
-  }
+}
+@font-face {
+  font-family: "MedEstedad";
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Medium.woff2) format("woff");
+}
+@font-face {
+  font-family: "BEstedad";
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Bold.woff2) format("woff");
+}
+@font-face {
+  font-family: "XBEstedad";
+  src: url(./assets/fonts/Estedad/woff2/Estedad-ExtraBold.woff2) format("woff");
+}
+@font-face {
+  font-family: "LightEstedad";
+  src: url(./assets/fonts/Estedad/woff2/Estedad-Light.woff2) format("woff");
+}
 
 
 body {
-background-color: rgb(220, 220, 66);
-direction: rtl;
-font-family: 'MedEstedad';
+  background-color: rgb(220, 220, 66);
+  direction: rtl;
+  font-family: "MedEstedad";
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
-
+.BTN  {
+  cursor: pointer;
+}
 .activeButton {
-    color: white;
-    background-color: blue;
+  color: white;
+  background-color: blue;
 }
 
 .warning {
-    text-align: center;
-    color: teal;
-    font-size: 50px;
-    margin-top: 10%;
-    font-family: 'XBEstedad';
+  text-align: center;
+  color: teal;
+  font-size: 50px;
+  margin-top: 10%;
+  font-family: "XBEstedad";
 }
 header {
-    background-color: rgb(116, 116, 116);
-    border-radius: 5px;
-    margin-bottom: 5px;
-    color: white;
+  background-color: rgb(116, 116, 116);
+  border-radius: 0px 0px 8px 8px;
+  margin-bottom: 5px;
+  color: white;
 }
 header h1 {
-    font-family: 'BEstedad';
+  font-family: "BEstedad";
 }
 
 header ul li {
-    font-family: 'LightEstedad';
-    list-style: none;
+  font-family: "LightEstedad";
+  list-style: none;
 }
 input {
-    background-color: white;
+  background-color: white;
 }
 
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+.itemContainer1 {
+  margin-right: 10px;
+}
+.itemContainer2 {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.listItemContainer {
+  margin-right: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-top: 1px #aaa solid;
+  width: 50%;
+}
+.listItemContainer:last-child {
+  border-bottom: 1px #aaa solid;
+}
+
+.itemContent {
+  flex: 3;
+  width: 50%;
+  word-wrap: break-word;
+  /* overflow: scroll; */
+}
+.itemButton {
+  flex: 0.1;
+}
+.itemCheckbox {
+  flex: 0.1;
+  zoom: 1.5;
+}
+.itemCheckbox:hover {
+  cursor: pointer;
+  background-color: chartreuse;
+}
+.notices {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.router {
+  padding-left: 5px;
+  text-align: center;
+}
+.headerDate {
+  direction: ltr;
+  padding-left: 10px;
+}
+.filter2ItemContainer2 {
+  min-width: max-content;
+}

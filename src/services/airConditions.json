@@ -1,0 +1,277 @@
+[
+    {
+        "id":200,
+        "fa":"رعد و برق همراه با باران خفیف",
+        "en":"thunderstorm with light rain"
+    },
+    {
+        "id":201,
+        "fa":"رعد و برق همراه با باران",
+        "en":"thunderstorm with rain"
+    },
+    {
+        "id":202,
+        "fa":"رعد و برق همراه با باران شدید",
+        "en":"thunderstorm with heavy rain"
+    },
+    {
+        "id":210,
+        "fa":"رعد و برق خفیف",
+        "en":"light thunderstorm"
+    },
+    {
+        "id":211,
+        "fa":"رعد و برق",
+        "en":"thunderstorm"
+    },
+    {
+        "id":212,
+        "fa":"رعد و برق شدید",
+        "en":"heavy thunderstorm"
+    },
+    {
+        "id":221,
+        "fa":"رعد و برق خشن",
+        "en":"ragged thunderstorm"
+    },
+    {
+        "id":230,
+        "fa":"رعد و برق همراه با نم نم باران خفیف",
+        "en":"thunderstorm with light drizzle"
+    },
+    {
+        "id":231,
+        "fa":"رعد و برق همراه با نم نم نم نم باران",
+        "en":"thunderstorm with drizzle"
+    },
+    {
+        "id":232,
+        "fa":"رعد و برق همراه با باران شدید",
+        "en":"thunderstorm with heavy drizzle"
+    },
+    {
+        "id":300,
+        "fa":"نم نم باران با شدت نور",
+        "en":"light intensity drizzle"
+    },
+    {
+        "id":301,
+        "fa":"باران ریز و نمناک",
+        "en":"drizzle"
+    },
+    {
+        "id":302,
+        "fa":"نم نم با شدت زیاد",
+        "en":"heavy intensity drizzle"
+    },
+    {
+        "id":310,
+        "fa":"باران با شدت کم",
+        "en":"light intensity drizzle rain"
+    },
+    {
+        "id":311,
+        "fa":"باران نم نم",
+        "en":"drizzle rain"
+    },
+    {
+        "id":312,
+        "fa":"باران با شدت شدید",
+        "en":"heavy intensity drizzle rain"
+    },
+    {
+        "id":313,
+        "fa":"دوش نم نم باران",
+        "en":"shower rain and drizzle"
+    },
+    {
+        "id":314,
+        "fa":"دوش نم نم باران شدید",
+        "en":"heavy shower rain and drizzle"
+    },
+    {
+        "id":321,
+        "fa":"نم نم باران",
+        "en":"shower drizzle"
+    },
+    {
+        "id":500,
+        "fa":"باران سبک",
+        "en":"light rain"
+    },
+    {
+        "id":501,
+        "fa":"باران متوسط",
+        "en":"moderate rain"
+    },
+    {
+        "id":502,
+        "fa":"باران با شدت زیاد",
+        "en":"heavy intensity rain"
+    },
+    {
+        "id":503,
+        "fa":"باران بسیار شدید",
+        "en":"very heavy rain"
+    },
+    {
+        "id":504,
+        "fa":"باران شدید",
+        "en":"extreme rain"
+    },
+    {
+        "id":511,
+        "fa":"قندیل",
+        "en":"freezing rain"
+    },
+    {
+        "id":520,
+        "fa":"باران رگباری با شدت کم",
+        "en":"light intensity shower rain"
+    },
+    {
+        "id":521,
+        "fa":"باران رگباری",
+        "en":"shower rain"
+    },
+    {
+        "id":522,
+        "fa":"باران رگباری شدید",
+        "en":"heavy intensity shower rain"
+    },
+    {
+        "id":531,
+        "fa":"دوش باران تند",
+        "en":"ragged shower rain"
+    },
+    {
+        "id":600,
+        "fa":"برف سبک",
+        "en":"light snow"
+    },
+    {
+        "id":601,
+        "fa":"برف",
+        "en":"Snow"
+    },
+    {
+        "id":602,
+        "fa":"برف سنگین",
+        "en":"Heavy snow"
+    },
+    {
+        "id":611,
+        "fa":"برفک",
+        "en":"Sleet"
+    },
+    {
+        "id":612,
+        "fa":"رگبار برفک سبک",
+        "en":"Light shower sleet"
+    },
+    {
+        "id":613,
+        "fa":"رگبار برفک",
+        "en":"Shower sleet"
+    },
+    {
+        "id":615,
+        "fa":"برف و باران سبک",
+        "en":"Light rain and snow"
+    },
+    {
+        "id":616,
+        "fa":"برف و باران",
+        "en":"Rain and snow"
+    },
+    {
+        "id":620,
+        "fa":"رگبار برف خفیف",
+        "en":"Light shower snow"
+    },
+    {
+        "id":621,
+        "fa":"رگبار برف",
+        "en":"Shower snow"
+    },
+    {
+        "id":622,
+        "fa":"رگبار برف سنگین",
+        "en":"Heavy shower snow"
+    },
+    {
+        "id":701,
+        "fa":"غبار آلود",
+        "en":"mist"
+    },
+    {
+        "id":711,
+        "fa":"دود",
+        "en":"Smoke"
+    },
+    {
+        "id":721,
+        "fa":"دل آسمون گرفته",
+        "en":"Haze"
+    },
+    {
+        "id":731,
+        "fa":"گرد و غبار",
+        "en":"sand/ dust whirls"
+    },
+    {
+        "id":741,
+        "fa":"مه آلود",
+        "en":"fog"
+    },
+    {
+        "id":751,
+        "fa":"ریزگرد",
+        "en":"sand"
+    },
+    {
+        "id":761,
+        "fa":"گرد و خاک",
+        "en":"dust"
+    },
+    {
+        "id":762,
+        "fa":"خاکستر آتشفشانی",
+        "en":"volcanic ash"
+    },
+    {
+        "id":771,
+        "fa":"بوران",
+        "en":"squalls"
+    },
+    {
+        "id":781,
+        "fa":"گردباد",
+        "en":"tornado"
+    },
+    {
+        "id":800,
+        "fa":"آسمان صاف",
+        "en":"clear sky"
+    },
+    {
+        "id":801,
+        "fa":"کمی ابری",
+        "en":"few clouds: 11-25%"
+    },
+    {
+        "id":802,
+        "fa":"ابرهای پراکندی",
+        "en":"scattered clouds: 25-50%"
+    },
+    {
+        "id":803,
+        "fa":"ابرهای شکسته",
+        "en":"broken clouds: 51-84%"
+    },
+    {
+        "id":804,
+        "fa":"آسمان پوشیده از ابر",
+        "en":"overcast clouds: 85-100%"
+    }
+]
