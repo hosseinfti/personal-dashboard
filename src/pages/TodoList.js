@@ -30,8 +30,8 @@ class TodoList extends Component {
   replaceUrl = () => {
     let x = ""
     x = {
-      filter: this.state.filter === "all" ? undefined : this.state.filter,
-      search: !this.state.searchterm ? undefined : this.state.searchterm
+      filter: this.state.filter !== "all" ? this.state.filter : undefined ,
+      search: this.state.searchterm ? this.state.searchterm : undefined ,
     }
     const y = queryString.stringify(x);
     this.props.navigate(`?${y}`);
@@ -51,11 +51,14 @@ class TodoList extends Component {
     };
     let newlist = this.state.todolist;
     newlist.push(newtodo);
-    this.setState({
+    this.setState((prevstate) => {
+      return {
       todolist: newlist,
       addtodo: "",
       searchtodolist: [],
       filter: "all",
+      searchterm: "",
+      }
     });
   };
 
@@ -113,8 +116,8 @@ class TodoList extends Component {
     this.setState(
       {
         searchterm: event.target.value,
-      },
-      () => this.replaceUrl()
+      }
+
     );
   };
 
@@ -122,8 +125,8 @@ class TodoList extends Component {
     this.setState(
       {
         filter: value,
-      },
-      () => this.replaceUrl()
+      }
+
     );
   };
 
@@ -142,21 +145,39 @@ class TodoList extends Component {
     }
   };
 
-  handleClearDone = (item) => {
+  handleClearDone = () => {
     const suredelete = window.confirm(
       "آیا می‌خواهید همه‌ی فعالیت‌های انجام شده را حذف نمایید؟"
     );
-    if (suredelete === true) {
-      let done = this.state.todolist.filter((item) => {
+    if (suredelete === true) {  
+    if(this.state.filter !== "all" || this.state.searchterm ){
+      let donesearchlist = this.state.searchtodolist.filter((item) => {
         return item["checked"] === false;
-      });
+      })
+      let donetodolist = this.state.todolist.filter((item) => {
+        return item["checked"] === false;
+      })
       this.setState({
-        todolist: done,
-        searchtodolist: done,
-      });
-    } else {
-      return false;
+        searchtodolist: donesearchlist,
+        todolist: donetodolist,
+      })
     }
+    else if(!this.state.searchterm || this.state.filter === "all" ) {
+        let done = this.state.todolist.filter((item) => {
+          return item["checked"] === false;
+        });
+        this.setState({
+          todolist: done,
+          searchedList: done,
+        });
+    }
+    }
+
+
+
+
+
+
   };
 
   componentDidMount() {
@@ -200,6 +221,8 @@ class TodoList extends Component {
         });
       }
     }
+    if(prevState.filter !== this.state.filter){this.replaceUrl()}
+    if(prevState.searchterm !== this.state.searchterm){this.replaceUrl()}
   }
   render() {
     const searchNotFoundTodo =
