@@ -82,19 +82,17 @@ class TodoList extends Component {
   handleDeleteItem = (itemToBeRemoved) => {
     const sure = window.confirm("آیا از حذف کردن این ردیف مطمئن هستید؟");
     if (sure === true) {
-      let newlist = [];
-      let anotherlist = [];
-      newlist = this.state.todolist.filter((item) => {
+      let newtodolist = this.state.todolist.filter((item) => {
         return item["key"] !== itemToBeRemoved;
       });
       this.setState({
-        todolist: newlist,
+        todolist: newtodolist,
       });
-      anotherlist = this.state.searchtodolist.filter((item) => {
+      let newsearchtodolist = this.state.searchtodolist.filter((item) => {
         return item["key"] !== itemToBeRemoved;
       });
       this.setState({
-        searchtodolist: anotherlist,
+        searchtodolist: newsearchtodolist,
       });
     }
   };
