@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Helmet} from "react-helmet"
 function AboutThisProject() {
   return (
     <div>
@@ -16,6 +16,9 @@ function AboutThisProject() {
         رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
         پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
       </p>
+      <Helmet>
+        <title>مدیریت فعالیت‌ها | درباره‌ی این پروژه</title>
+      </Helmet>
     </div>
   );
 }

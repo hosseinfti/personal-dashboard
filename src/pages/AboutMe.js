@@ -1,8 +1,11 @@
-import React from "react";
+import React, {Component} from "react";
+import {Helmet} from 'react-helmet'
 
-function AboutMe() {
-  return (
-    <div>
+class AboutMe extends Component {
+  
+  render(){
+    return (
+      <div>
       <h1>درباره‌ی حسین</h1>
       <p>
         مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار نمیداد، همه
@@ -18,7 +21,11 @@ function AboutMe() {
         یک کپی و پست این متن را در کادرهای مختلف جایگزین نمائید. این نوشته توسط
         سایت لورم ایپسوم فارسی نگاشته شده است.
       </p>
+      <Helmet>
+        <title>مدیریت فعالیت‌ها | درباره‌ی من</title>
+      </Helmet>
     </div>
   );
+  }
 }
 export default AboutMe;

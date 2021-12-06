@@ -23,7 +23,6 @@
   src: url(./assets/fonts/Estedad/woff2/Estedad-Light.woff2) format("woff");
 }
 
-
 body {
   background-color: rgb(220, 220, 66);
   direction: rtl;
@@ -86,10 +85,15 @@ input {
   display: flex;
   flex-flow: row nowrap;
   border-top: 1px #aaa solid;
-  width: 50%;
 }
 .listItemContainer:last-child {
   border-bottom: 1px #aaa solid;
+}
+@media only screen and (min-width: 541px ) {
+  .listItemContainer {
+    width: 50%;
+
+  }
 }
 
 .itemContent {

@@ -15,30 +15,26 @@ class Weather extends Component {
       weatherData: undefined,
       weatherDescription: undefined,
       weatherTextDisplay: undefined,
-      airConditionsText: airConditions
+      airConditionsText: airConditions,
+      loading: false,
     };
   }
-  componentDidMount() {
+
+  getWeatherData = () => {
     axios
       .get(
         `http://api.openweathermap.org/data/2.5/weather?id=${this.state.inputId}&units=metric&appid=2166d7ffe1acb211d49ade284aa794fa`
       )
-      .then((response) => {
-        console.log(response);
-        if (response.request.status === 200) {
+      .then(response => response.data)
+      .then((data) => {
             this.setState({
-              weatherData: response.data.main.temp,
-              weatherDescription: response.data.weather[0].description,
+              weatherData: data.main.temp,
+              weatherDescription: data.weather[0].description,
               weatherTextDisplay: this.state.airConditionsText.filter((item)=>{
-                return item["id"] === response.data.weather[0].id
+                return item["id"] === data.weather[0].id
               })
             });
-        }else {this.setState({
-          weatherData: "در حال بارگذاری",
-          weatherDescription: "درحال بارگذاری",
-          weatherTextDisplay: "درحال بارگذاری"
-        })}
-      });
+      })
   }
 
   handleSelectCity = (event) => {
@@ -49,25 +45,16 @@ class Weather extends Component {
       inputId: x[0].id,
       inputCity: event.target.value,
       cityName:x[0].name
-    });
+    }, () => this.getWeatherData());
   };
+
+  componentDidMount() {
+    this.getWeatherData()
+  }
+
   componentDidUpdate() {
-    axios
-      .get(
-        `http://api.openweathermap.org/data/2.5/weather?id=${this.state.inputId}&units=metric&appid=2166d7ffe1acb211d49ade284aa794fa`
-      )
-      .then((response) => {
-        if (response.request.status === 200) {
-            this.setState({
-              weatherData: response.data.main.temp,
-              weatherDescription: response.data.weather[0].description,
-              weatherTextDisplay: this.state.airConditionsText.filter((item)=>{
-                return item["id"] === response.data.weather[0].id
-              })
-            });
-        }else{throw Error('No internet')}
-      })
-      .catch(error => Error.message)
+
+
 
   }
 
