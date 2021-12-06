@@ -55,7 +55,7 @@ class TodoList extends Component {
       todolist: newlist,
       addtodo: "",
       searchtodolist: [],
-      filter: "",
+      filter: "all",
     });
   };
 
