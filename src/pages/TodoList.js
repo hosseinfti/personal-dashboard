@@ -150,7 +150,7 @@ class TodoList extends Component {
       "آیا می‌خواهید همه‌ی فعالیت‌های انجام شده را حذف نمایید؟"
     );
     if (suredelete === true) {  
-    if(this.state.filter || this.state.searchterm ){
+    if( this.state.filter || this.state.searchterm ){
       let donesearchlist = this.state.searchtodolist.filter((item) => {
         return item["checked"] === false;
       })
@@ -160,6 +160,8 @@ class TodoList extends Component {
       this.setState({
         searchtodolist: donesearchlist,
         todolist: donetodolist,
+        filter: "all",
+        searchterm: "",
       })
     }
     // else if(!this.state.searchterm && this.state.filter === "all") {
