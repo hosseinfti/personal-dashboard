@@ -28,13 +28,13 @@ class TodoList extends Component {
   }
 
   replaceUrl = () => {
-    let x = ""
-    x = {
+    let queryStrings = ""
+    queryStrings = {
       filter: this.state.filter !== "all" ? this.state.filter : undefined ,
       search: this.state.searchterm ? this.state.searchterm : undefined ,
     }
-    const y = queryString.stringify(x);
-    this.props.navigate(`?${y}`);
+    const queryStringsStringify = queryString.stringify(queryStrings);
+    this.props.navigate(`?${queryStringsStringify}`);
   };
 
   handleSubmit = (event) => {
