@@ -31,7 +31,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-.BTN  {
+.BTN {
   cursor: pointer;
 }
 .activeButton {
@@ -89,10 +89,9 @@ input {
 .listItemContainer:last-child {
   border-bottom: 1px #aaa solid;
 }
-@media only screen and (min-width: 541px ) {
+@media only screen and (min-width: 541px) {
   .listItemContainer {
     width: 50%;
-
   }
 }
 
@@ -127,6 +126,28 @@ input {
 .headerDate {
   direction: ltr;
   padding-left: 10px;
+  display: flex;
+  width: 210px;
+}
+.shamsi {
+  border: solid 1px;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: #888;
+  border: none;
+  width: 100px;
+  text-align: center;
+}
+.miladi {
+  border: solid 1px;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: #888;
+  border: none;
+  width: 100px;
+  text-align: center;
 }
 .filter2ItemContainer2 {
   min-width: max-content;
