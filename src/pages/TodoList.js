@@ -28,11 +28,11 @@ class TodoList extends Component {
   }
 
   replaceUrl = () => {
-    let queryStrings = ""
+    let queryStrings = "";
     queryStrings = {
-      filter: this.state.filter !== "all" ? this.state.filter : undefined ,
-      search: this.state.searchterm ? this.state.searchterm : undefined ,
-    }
+      filter: this.state.filter !== "all" ? this.state.filter : undefined,
+      search: this.state.searchterm ? this.state.searchterm : undefined,
+    };
     const queryStringsStringify = queryString.stringify(queryStrings);
     this.props.navigate(`?${queryStringsStringify}`);
   };
@@ -53,12 +53,12 @@ class TodoList extends Component {
     newlist.push(newtodo);
     this.setState((prevstate) => {
       return {
-      todolist: newlist,
-      addtodo: "",
-      searchtodolist: [],
-      filter: "all",
-      searchterm: "",
-      }
+        todolist: newlist,
+        addtodo: "",
+        searchtodolist: [],
+        filter: "all",
+        searchterm: "",
+      };
     });
   };
 
@@ -113,21 +113,15 @@ class TodoList extends Component {
   };
 
   handleSearch = (event) => {
-    this.setState(
-      {
-        searchterm: event.target.value,
-      }
-
-    );
+    this.setState({
+      searchterm: event.target.value,
+    });
   };
 
   handleFilter = (value) => {
-    this.setState(
-      {
-        filter: value,
-      }
-
-    );
+    this.setState({
+      filter: value,
+    });
   };
 
   handleClearAll = () => {
@@ -149,37 +143,31 @@ class TodoList extends Component {
     const suredelete = window.confirm(
       "آیا می‌خواهید همه‌ی فعالیت‌های انجام شده را حذف نمایید؟"
     );
-    if (suredelete === true) {  
-    if( this.state.filter || this.state.searchterm ){
-      let donesearchlist = this.state.searchtodolist.filter((item) => {
-        return item["checked"] === false;
-      })
-      let donetodolist = this.state.todolist.filter((item) => {
-        return item["checked"] === false;
-      })
-      this.setState({
-        searchtodolist: donesearchlist,
-        todolist: donetodolist,
-        filter: "all",
-        searchterm: "",
-      })
+    if (suredelete === true) {
+      if (this.state.filter || this.state.searchterm) {
+        let donesearchlist = this.state.searchtodolist.filter((item) => {
+          return item["checked"] === false;
+        });
+        let donetodolist = this.state.todolist.filter((item) => {
+          return item["checked"] === false;
+        });
+        this.setState({
+          searchtodolist: donesearchlist,
+          todolist: donetodolist,
+          filter: "all",
+          searchterm: "",
+        });
+      }
+      // else if(!this.state.searchterm && this.state.filter === "all") {
+      //     let done = this.state.todolist.filter((item) => {
+      //       return item["checked"] === false;
+      //     });
+      //     this.setState({
+      //       todolist: done,
+      //       searchedList: done,
+      //     });
+      // }
     }
-    // else if(!this.state.searchterm && this.state.filter === "all") {
-    //     let done = this.state.todolist.filter((item) => {
-    //       return item["checked"] === false;
-    //     });
-    //     this.setState({
-    //       todolist: done,
-    //       searchedList: done,
-    //     });
-    // }
-    }
-
-
-
-
-
-
   };
 
   componentDidMount() {
@@ -223,14 +211,17 @@ class TodoList extends Component {
         });
       }
     }
-    if(prevState.filter !== this.state.filter){this.replaceUrl()}
-    if(prevState.searchterm !== this.state.searchterm){this.replaceUrl()}
+    if (prevState.filter !== this.state.filter) {
+      this.replaceUrl();
+    }
+    if (prevState.searchterm !== this.state.searchterm) {
+      this.replaceUrl();
+    }
   }
   render() {
     const searchNotFoundTodo =
       this.state.searchterm.length !== 0 &&
-      this.state.searchtodolist.length === 0 
-      ? (
+      this.state.searchtodolist.length === 0 ? (
         <div className="warning"> موردی یافت نشد! </div>
       ) : (
         ""

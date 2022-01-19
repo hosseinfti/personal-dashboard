@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Weather from "../parts/Weather";
-import Time from "../parts/Time";
 import { Link } from "react-router-dom";
+import TimeShamsi from "../parts/Time-Shamsi";
+import TimeMiladi from "../parts/Time-Miladi";
 
 class Header extends Component {
   render() {
@@ -16,7 +17,8 @@ class Header extends Component {
         >
           <div className="notices">
             <div className="headerDate">
-              <Time />
+              <TimeShamsi />
+              <TimeMiladi />
             </div>
             <div>
               <Weather />

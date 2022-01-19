@@ -4,7 +4,7 @@ import React, { Component } from "react";
 // import Clock from "react-live-clock";
 // import { Switch } from "antd";
 
-class Time extends Component {
+class TimeShamsi extends Component {
   constructor(props) {
     super(props);
     // const time = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
@@ -13,14 +13,14 @@ class Time extends Component {
       timeStyle: "medium",
     }).format(date);
     const event = new Date();
-    const weekOptions = { weekday: "long"}
+    const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
       month: "numeric",
       day: "numeric",
     };
     const todayDate = event.toLocaleDateString("fa-IR", dateOptions);
-    const todayweekday = event.toLocaleDateString("fa-IR", weekOptions)
+    const todayweekday = event.toLocaleDateString("fa-IR", weekOptions);
     this.state = {
       weekday: todayweekday,
       date: todayDate,
@@ -35,14 +35,14 @@ class Time extends Component {
       timeStyle: "medium",
     }).format(date);
     const event = new Date();
-    const weekOptions = { weekday: "long"}
+    const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
       month: "numeric",
       day: "numeric",
     };
     const todayDate = event.toLocaleDateString("fa-IR", dateOptions);
-    const todayweekday = event.toLocaleDateString("fa-IR", weekOptions)
+    const todayweekday = event.toLocaleDateString("fa-IR", weekOptions);
     this.setState(() => ({
       weekday: todayweekday,
       date: todayDate,
@@ -58,15 +58,15 @@ class Time extends Component {
 
   render() {
     return (
-      <>
+      <div className="shamsi">
         <div>{this.state.weekday}</div>
         <div>{this.state.date}</div>
         <div>{this.state.time}</div>
-      </>
+      </div>
     );
   }
 }
-export default Time;
+export default TimeShamsi;
 
 // class Time extends Component {
 // render() {
