@@ -8,13 +8,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-          }}
-        >
+        <nav>
           <div className="notices">
             <div className="headerDate">
               <TimeShamsi />
@@ -26,21 +20,19 @@ class Header extends Component {
           </div>
           <ul className="router">
             <li>
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link className="routerLink" to="/">
                 لیست انجام کار
               </Link>
             </li>
             <li>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
+              <Link className="routerLink"
                 to="/aboutMe"
               >
                 درباره‌ی من
               </Link>
             </li>
             <li>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
+              <Link className="routerLink"
                 to="/aboutThisProject"
               >
                 درباره‌ی این پروژه

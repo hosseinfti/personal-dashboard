@@ -31,6 +31,22 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+nav {
+  background-color: rgb(116, 116, 116);
+  border-radius: 0px 0px 8px 8px;
+  margin-bottom: 5px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.routerLink {
+  text-decoration: none;
+  color: white;
+}
+.searchInput {
+  width: -webkit-fill-available;
+}
 .BTN {
   cursor: pointer;
 }
@@ -46,12 +62,7 @@ body {
   margin-top: 10%;
   font-family: "XBEstedad";
 }
-header {
-  background-color: rgb(116, 116, 116);
-  border-radius: 0px 0px 8px 8px;
-  margin-bottom: 5px;
-  color: white;
-}
+
 header h1 {
   font-family: "BEstedad";
 }

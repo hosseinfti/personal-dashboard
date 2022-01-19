@@ -272,10 +272,10 @@ class TodoList extends Component {
             <div className="itemContainer1">
               <div>
                 <input
+                  className="searchInput"
                   type="text"
                   value={this.state.searchterm}
                   placeholder="جستجو ..."
-                  style={{ width: "-webkit-fill-available" }}
                   onChange={this.handleSearch}
                 />
               </div>
@@ -335,6 +335,10 @@ class TodoList extends Component {
           <br />
           <div>
             <br />
+            {List}
+            {List}
+            {List}
+            {List}
             {List}
             {emptyList}
             {searchNotFoundTodo}
