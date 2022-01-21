@@ -336,10 +336,6 @@ class TodoList extends Component {
           <div>
             <br />
             {List}
-            {List}
-            {List}
-            {List}
-            {List}
             {emptyList}
             {searchNotFoundTodo}
           </div>

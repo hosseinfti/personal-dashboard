@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class TimeMiladi extends Component {
+class TimeHejri extends Component {
   constructor(props) {
     super(props);
     const date = new Date();
-    const newTime = new Intl.DateTimeFormat("en-GB", {
+    const newTime = new Intl.DateTimeFormat("ar-SA", {
       timeStyle: "medium",
     }).format(date);
     const event = new Date();
@@ -14,8 +14,8 @@ class TimeMiladi extends Component {
       month: "numeric",
       day: "numeric",
     };
-    const todayDate = event.toLocaleDateString("en-GB", dateOptions);
-    const todayweekday = event.toLocaleDateString("en-GB", weekOptions);
+    const todayDate = event.toLocaleDateString("ar-SA", dateOptions);
+    const todayweekday = event.toLocaleDateString("ar-SA", weekOptions);
     this.state = {
       weekday: todayweekday,
       date: todayDate,
@@ -25,7 +25,7 @@ class TimeMiladi extends Component {
 
   updateTime = () => {
     const date = new Date();
-    const newTime = new Intl.DateTimeFormat("en-GB", {
+    const newTime = new Intl.DateTimeFormat("ar-SA", {
       timeStyle: "medium",
     }).format(date);
     const event = new Date();
@@ -35,8 +35,8 @@ class TimeMiladi extends Component {
       month: "numeric",
       day: "numeric",
     };
-    const todayDate = event.toLocaleDateString("en-GB", dateOptions);
-    const todayweekday = event.toLocaleDateString("en-GB", weekOptions);
+    const todayDate = event.toLocaleDateString("ar-SA", dateOptions);
+    const todayweekday = event.toLocaleDateString("ar-SA", weekOptions);
     this.setState(() => ({
       weekday: todayweekday,
       date: todayDate,
@@ -47,12 +47,12 @@ class TimeMiladi extends Component {
   componentDidMount() {
     this.interval = setInterval(() => this.updateTime(), 1000);
     const date = new Date(Date.UTC(2020, 11, 20, 3, 23, 16, 738));
-    new Intl.DateTimeFormat("en-GB", { timeStyle: "medium" }).format(date);
+    new Intl.DateTimeFormat("ar-SA", { timeStyle: "medium" }).format(date);
   }
 
   render() {
     return (
-      <div className="miladi">
+      <div className="hejri">
         <div>{this.state.weekday}</div>
         <div>{this.state.date}</div>
         <div>{this.state.time}</div>
@@ -60,4 +60,4 @@ class TimeMiladi extends Component {
     );
   }
 }
-export default TimeMiladi;
+export default TimeHejri;
