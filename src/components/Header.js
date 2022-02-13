@@ -27,16 +27,12 @@ class Header extends Component {
               </Link>
             </li>
             <li>
-              <Link className="routerLink"
-                to="/aboutMe"
-              >
+              <Link className="routerLink" to="/aboutMe">
                 درباره‌ی من
               </Link>
             </li>
             <li>
-              <Link className="routerLink"
-                to="/aboutThisProject"
-              >
+              <Link className="routerLink" to="/aboutThisProject">
                 درباره‌ی این پروژه
               </Link>
             </li>

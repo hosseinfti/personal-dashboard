@@ -11,47 +11,65 @@ class Pollution extends Component {
   }
 
   setAirQualityDescription = () => {
-    if (this.state.airQualityIndex <= 50 && this.state.airQualityIndex !== undefined ) {
-    this.setState({
-      airQualityDescription: "هوا واقعا تمیزه",
-    })
-      }else if (this.state.airQualityIndex > 50 && this.state.airQualityIndex <= 100) {
-        this.setState({
-          airQualityDescription: "اونقدرام آلوده نیست",
-        })
-      }else if (this.state.airQualityIndex > 100 && this.state.airQualityIndex <= 150) {
-        this.setState({
-          airQualityDescription: "یکمی آلودست",
-        });
-      }else if (this.state.airQualityIndex > 150 && this.state.airQualityIndex <= 200) {
-        this.setState({
-          airQualityDescription: "افراد حساس بهتره که بیرون نرن",
-        });
-      }else if (this.state.airQualityIndex > 200 && this.state.airQualityIndex <= 300) {
-        this.setState({
-          airQualityDescription: "هوا بسیار آلودست اصلا بیرون نرید",
-        });
-      }else if (this.state.airQualityIndex > 300) {
-        this.setState({
-          airQualityDescription: "آلودگی وحشتناکه",
-        });
-      }
-  }
+    if (
+      this.state.airQualityIndex <= 50 &&
+      this.state.airQualityIndex !== undefined
+    ) {
+      this.setState({
+        airQualityDescription: "هوا واقعا تمیزه",
+      });
+    } else if (
+      this.state.airQualityIndex > 50 &&
+      this.state.airQualityIndex <= 100
+    ) {
+      this.setState({
+        airQualityDescription: "اونقدرام آلوده نیست",
+      });
+    } else if (
+      this.state.airQualityIndex > 100 &&
+      this.state.airQualityIndex <= 150
+    ) {
+      this.setState({
+        airQualityDescription: "یکمی آلودست",
+      });
+    } else if (
+      this.state.airQualityIndex > 150 &&
+      this.state.airQualityIndex <= 200
+    ) {
+      this.setState({
+        airQualityDescription: "افراد حساس بهتره که بیرون نرن",
+      });
+    } else if (
+      this.state.airQualityIndex > 200 &&
+      this.state.airQualityIndex <= 300
+    ) {
+      this.setState({
+        airQualityDescription: "هوا بسیار آلودست اصلا بیرون نرید",
+      });
+    } else if (this.state.airQualityIndex > 300) {
+      this.setState({
+        airQualityDescription: "آلودگی وحشتناکه",
+      });
+    }
+  };
 
   getPollutionData = () => {
     axios
-    .get(
-      `https://api.waqi.info/feed/${this.props.aqiCity}/?token=ae82ff185e0d9aed5712e12cbe2706cc8519a9fc`
-    )
-    .then(response => response.data)
-    .then(data => data.data)
-    .then(newData => newData.aqi)
-    .then((aqi) => {
+      .get(
+        `https://api.waqi.info/feed/${this.props.aqiCity}/?token=ae82ff185e0d9aed5712e12cbe2706cc8519a9fc`
+      )
+      .then((response) => response.data)
+      .then((data) => data.data)
+      .then((newData) => newData.aqi)
+      .then((aqi) => {
         // if (aqi <= 50) {
-          this.setState({
+        this.setState(
+          {
             airQualityIndex: aqi,
             // airQualityDescription: "هوا واقعا تمیزه",
-          }, () => this.setAirQualityDescription());
+          },
+          () => this.setAirQualityDescription()
+        );
         // } else if (aqi > 50 && aqi <= 100) {
         //   this.setState({
         //     airQualityIndex: aqi,
@@ -78,17 +96,16 @@ class Pollution extends Component {
         //     // airQualityDescription: "آلودگی وحشتناکه",
         //   });
         // }
-    })
-    .catch(Error("اطلاعات این شهر موجود نیست"));
-}
+      })
+      .catch(Error("اطلاعات این شهر موجود نیست"));
+  };
   componentDidMount() {
-    this.getPollutionData()
+    this.getPollutionData();
   }
 
   componentDidUpdate(prevProps) {
-    if(prevProps !== this.props){
-      this.getPollutionData()
-
+    if (prevProps !== this.props) {
+      this.getPollutionData();
     }
     // this.getPollutionData()
     // let aqi = this.state.airQualityIndex;
@@ -131,8 +148,14 @@ class Pollution extends Component {
     // }
   }
   render() {
-    const airindex = this.state.airQualityIndex === undefined ? "شاخص آلودگی این شهر موجود نیست" :  `شاخص آلودگی هوا :${this.state.airQualityIndex}`
-    const airdescription = this.state.airQualityIndex === undefined ? "" : this.state.airQualityDescription
+    const airindex =
+      this.state.airQualityIndex === undefined
+        ? "شاخص آلودگی این شهر موجود نیست"
+        : `شاخص آلودگی هوا :${this.state.airQualityIndex}`;
+    const airdescription =
+      this.state.airQualityIndex === undefined
+        ? ""
+        : this.state.airQualityDescription;
     return (
       <>
         <span>{airindex}</span>
