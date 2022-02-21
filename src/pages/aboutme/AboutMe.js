@@ -1,13 +1,14 @@
 import React, {Component} from "react";
 import {Helmet} from 'react-helmet'
+import "./style.css"
 
 class AboutMe extends Component {
   
   render(){
     return (
       <div>
-      <h1>درباره‌ی حسین</h1>
-      <p>
+      <h1 className="about-me-h1">درباره‌ی حسین</h1>
+      <p className="about-me-p">
         مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار نمیداد، همه
         میگفتند : تو به هیچ دردی نمیخوری، یک شب که مداد رنگی ها تو سیاهی شب گم
         شده بودند، مداد سفید تا صبح ماه کشید مهتاب کشید و انقدر ستاره کشید که

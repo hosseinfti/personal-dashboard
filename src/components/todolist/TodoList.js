@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import ListItem from "../components/ListItem";
-import "../App.css";
-import withRouter from "./whitRouter";
+import ListItem from "./list-item/ListItem";
+import "../../App.css";
+import "./style.css";
+import withRouter from "../hoc/whitRouter";
 import { Helmet } from "react-helmet";
 import queryString from "query-string";
 
@@ -158,15 +159,6 @@ class TodoList extends Component {
           searchterm: "",
         });
       }
-      // else if(!this.state.searchterm && this.state.filter === "all") {
-      //     let done = this.state.todolist.filter((item) => {
-      //       return item["checked"] === false;
-      //     });
-      //     this.setState({
-      //       todolist: done,
-      //       searchedList: done,
-      //     });
-      // }
     }
   };
 
@@ -222,13 +214,13 @@ class TodoList extends Component {
     const searchNotFoundTodo =
       this.state.searchterm.length !== 0 &&
       this.state.searchtodolist.length === 0 ? (
-        <div className="warning"> موردی یافت نشد! </div>
+        <div className="no-result"> موردی یافت نشد! </div>
       ) : (
         ""
       );
     const emptyList =
       this.state.todolist.length === 0 && this.state.searchterm === "" ? (
-        <div className="warning">هنوز فعالیتی اضافه نشده</div>
+        <div className="no-result">هنوز فعالیتی اضافه نشده</div>
       ) : (
         ""
       );
@@ -265,79 +257,90 @@ class TodoList extends Component {
 
     return (
       <>
-        <div></div>
-        <br />
-        <div>
+        {/* <div></div> */}
+        {/* <br /> */}
+        <div className="right-side">
           <div className="filterContainer">
             <div className="itemContainer1">
               <div>
                 <input
-                  className="searchInput"
+                  className="card searchInput color-pallete-1"
                   type="text"
                   value={this.state.searchterm}
                   placeholder="جستجو ..."
                   onChange={this.handleSearch}
                 />
               </div>
-              <div>
-                <div>فعالیت جدید را اضافه نمایید</div>
-                <form onSubmit={this.handleSubmit}>
-                  <input
-                    type="text"
-                    value={this.state.addtodo}
-                    onChange={this.handleChange}
-                  />
-                  <input className="BTN" type="submit" value="اضافه" />
-                </form>
-              </div>
             </div>
-            <div className="itemContainer2">
+            <div className="card itemContainer2 color-pallete-1">
               <fieldset className="filter1ItemContainer2">
                 <legend>فیلتر با ...</legend>
-                <button
-                  className={
-                    this.state.filter === "all" ? `${"activeButton"}` : "BTN"
-                  }
-                  onClick={() => this.handleFilter("all")}
-                >
-                  همه‌ی فعالیت‌ها
-                </button>
-                <button
-                  className={
-                    this.state.filter === "done" ? `${"activeButton"}` : "BTN"
-                  }
-                  onClick={() => this.handleFilter("done")}
-                >
-                  انجام شده‌ها
-                </button>
-                <button
-                  className={
-                    this.state.filter === "todo" ? `${"activeButton"}` : "BTN"
-                  }
-                  onClick={() => this.handleFilter("todo")}
-                >
-                  انجام نشده‌ها
-                </button>
+                <div>
+                  <button
+                    className={
+                      this.state.filter === "all" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("all")}
+                  >
+                    همه‌ی فعالیت‌ها
+                  </button>
+                  <button
+                    className={
+                      this.state.filter === "done" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("done")}
+                  >
+                    انجام شده‌ها
+                  </button>
+                  <button
+                    className={
+                      this.state.filter === "todo" ? `${"activeButton"}` : "BTN"
+                    }
+                    onClick={() => this.handleFilter("todo")}
+                  >
+                    انجام نشده‌ها
+                  </button>
+                </div>
               </fieldset>
 
               <fieldset className="filter2ItemContainer2">
                 <legend> کدام فعالیت‌ها حذف شوند؟</legend>
-                <button className="BTN" onClick={this.handleClearAll}>
-                  {" "}
-                  همه‌ی فعالیت‌ها
-                </button>
-                <button className="BTN" onClick={this.handleClearDone}>
-                  انجام شده‌ها
-                </button>
+                <div>
+                  <button className="BTN" onClick={this.handleClearAll}>
+                    همه‌ی فعالیت‌ها
+                  </button>
+                  <button className="BTN" onClick={this.handleClearDone}>
+                    انجام شده‌ها
+                  </button>
+                </div>
               </fieldset>
             </div>
           </div>
-          <br />
-          <div>
-            <br />
-            {List}
-            {emptyList}
-            {searchNotFoundTodo}
+          <div className="card todolist-container color-pallete-2">
+            <div className="todo-form-container">
+              {/* <div className="todo-form-title">فعالیت جدید را اضافه نمایید</div> */}
+              <form className="todo-form" onSubmit={this.handleSubmit}>
+                <input
+                  type="text"
+                  value={this.state.addtodo}
+                  onChange={this.handleChange}
+                  className="todo-form-text"
+                  placeholder="فعالیت جدید ..."
+                />
+                <input
+                  className="BTN"
+                  type="submit"
+                  value="اضافه کردن"
+                  className="todo-form-submit"
+                />
+              </form>
+            </div>
+            {/* <br /> */}
+            <div className="tdl-items-container">
+              {List}
+              {emptyList}
+              {searchNotFoundTodo}
+            </div>
           </div>
           <Helmet>
             <title>مدیریت فعالیت‌ها</title>

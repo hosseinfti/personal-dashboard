@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css"
 import {Helmet} from "react-helmet"
 function AboutThisProject() {
   return (
     <div>
-      <h1>درباره‌ی این پروژه</h1>
-      <p>
+      <h1 className="about-project-h1">درباره‌ی این پروژه</h1>
+      <p className="about-project-p">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
         از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
         سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای

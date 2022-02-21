@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css"
 
 class TimeHejri extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class TimeHejri extends Component {
     const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
-      month: "numeric",
+      month: "long",
       day: "numeric",
     };
     const todayDate = event.toLocaleDateString("ar-SA", dateOptions);
@@ -32,7 +33,7 @@ class TimeHejri extends Component {
     const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
-      month: "numeric",
+      month: "long",
       day: "numeric",
     };
     const todayDate = event.toLocaleDateString("ar-SA", dateOptions);
@@ -52,11 +53,13 @@ class TimeHejri extends Component {
 
   render() {
     return (
-      <div className="hejri">
-        <div>{this.state.weekday}</div>
+      <>
+      {/* <div className="hejri"> */}
+        {/* <div>{this.state.weekday}</div> */}
         <div>{this.state.date}</div>
-        <div>{this.state.time}</div>
-      </div>
+        {/* <div>{this.state.time}</div> */}
+      {/* </div> */}
+      </>
     );
   }
 }

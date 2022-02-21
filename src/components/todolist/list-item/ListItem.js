@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css"
 
 class ListItem extends Component {
   render() {
@@ -38,26 +39,3 @@ class ListItem extends Component {
 }
 export default ListItem;
 
-// with grid template
-
-// return (
-//     <>
-//     <div>
-//       <div>
-//         <label style={checkedStyle}>
-//           <input
-//             type="checkbox"
-//             checked={this.props.checked}
-//             onChange={() => this.props.handleCheckboxChange(this.props.id)}
-//           />
-//           {this.props.content}
-//         </label>
-//         </div>
-//         <div>
-//         <button onClick={() => this.props.handleDelete(this.props.id)}>
-//           حذف
-//         </button>
-//         </div>
-//         </div>
-//     </>
-//   );

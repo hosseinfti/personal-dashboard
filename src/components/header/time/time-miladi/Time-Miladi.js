@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css"
 
 class TimeMiladi extends Component {
   constructor(props) {
@@ -11,14 +12,14 @@ class TimeMiladi extends Component {
     const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
-      month: "numeric",
+      month: "long",
       day: "numeric",
     };
-    const todayDate = event.toLocaleDateString("en-GB", dateOptions);
-    const todayweekday = event.toLocaleDateString("en-GB", weekOptions);
+    const todayMiladiDate = event.toLocaleDateString("en-GB", dateOptions);
+    const todayMiladiweekday = event.toLocaleDateString("en-GB", weekOptions);
     this.state = {
-      weekday: todayweekday,
-      date: todayDate,
+      miladiWeekday: todayMiladiweekday,
+      miladiDate: todayMiladiDate,
       time: newTime,
     };
   }
@@ -32,14 +33,14 @@ class TimeMiladi extends Component {
     const weekOptions = { weekday: "long" };
     const dateOptions = {
       year: "numeric",
-      month: "numeric",
+      month: "long",
       day: "numeric",
     };
-    const todayDate = event.toLocaleDateString("en-GB", dateOptions);
-    const todayweekday = event.toLocaleDateString("en-GB", weekOptions);
+    const todayMiladiDate = event.toLocaleDateString("en-GB", dateOptions);
+    const todayMiladiweekday = event.toLocaleDateString("en-GB", weekOptions);
     this.setState(() => ({
-      weekday: todayweekday,
-      date: todayDate,
+      miladiWeekday: todayMiladiweekday,
+      miladiDate: todayMiladiDate,
       time: newTime,
     }));
   };
@@ -52,11 +53,13 @@ class TimeMiladi extends Component {
 
   render() {
     return (
-      <div className="miladi">
-        <div>{this.state.weekday}</div>
-        <div>{this.state.date}</div>
-        <div>{this.state.time}</div>
-      </div>
+      <>
+      {/* <div className="miladi"> */}
+        {/* <div>{this.state.weekday}</div> */}
+        <div>{this.state.miladiDate}</div>
+        {/* <div>{this.state.time}</div> */}
+      {/* </div> */}
+      </>
     );
   }
 }

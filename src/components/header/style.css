@@ -1,0 +1,12 @@
+.card {
+  border-radius: 5px;
+  padding-inline: 3px;
+  padding: 7px;
+  margin: 3px;
+  margin-block: 5px;
+  width: -webkit-fill-available;
+}
+.city-selector {
+}
+.weather-info {
+}
