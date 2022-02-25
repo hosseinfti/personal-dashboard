@@ -54,7 +54,7 @@ class TimeShamsi extends Component {
   render() {
     return (
       <>
-        <div className="time-wDay color-pallete-2">
+        <div className="time-wDay color-pallete-2 inset-shadow">
           <div>{this.state.time}</div>
           <div>{this.state.weekday}</div>
         </div>

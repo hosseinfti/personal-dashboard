@@ -8,6 +8,7 @@ class Pollution extends Component {
     this.state = {
       airQualityIndex: "درحال بارگذاری...",
       airQualityDescription: "",
+      airQualityIcon: "",
     };
   }
 
@@ -18,6 +19,7 @@ class Pollution extends Component {
     ) {
       this.setState({
         airQualityDescription: "هوا واقعا تمیزه",
+        airQualityIcon: "green",
       });
     } else if (
       this.state.airQualityIndex > 50 &&
@@ -25,6 +27,7 @@ class Pollution extends Component {
     ) {
       this.setState({
         airQualityDescription: "اونقدرام آلوده نیست",
+        airQualityIcon: "yellow",
       });
     } else if (
       this.state.airQualityIndex > 100 &&
@@ -32,6 +35,7 @@ class Pollution extends Component {
     ) {
       this.setState({
         airQualityDescription: "یکمی آلودست",
+        airQualityIcon: "orange",
       });
     } else if (
       this.state.airQualityIndex > 150 &&
@@ -39,6 +43,7 @@ class Pollution extends Component {
     ) {
       this.setState({
         airQualityDescription: "افراد حساس بهتره که بیرون نرن",
+        airQualityIcon: "red",
       });
     } else if (
       this.state.airQualityIndex > 200 &&
@@ -46,13 +51,16 @@ class Pollution extends Component {
     ) {
       this.setState({
         airQualityDescription: "هوا بسیار آلودست اصلا بیرون نرید",
+        airQualityIcon: "red",
       });
     } else if (this.state.airQualityIndex > 300) {
       this.setState({
         airQualityDescription: "آلودگی وحشتناکه",
+        airQualityIcon: "red",
       });
     }
   };
+
 
   getPollutionData = () => {
     axios
@@ -69,6 +77,7 @@ class Pollution extends Component {
             airQualityIndex: aqi,
           },
           () => this.setAirQualityDescription()
+          // () => this.log(),
         );
       })
       .catch(Error("اطلاعات این شهر موجود نیست"));
@@ -91,13 +100,24 @@ class Pollution extends Component {
     //   this.state.airQualityIndex === undefined
     //     ? ""
     //     : this.state.airQualityDescription;
+    const aqi = this.state.airQualityIcon === "green"
+    ? require("../../../assets/images/aqi/green.svg").default
+    : this.state.airQualityIcon === "yellow"
+    ? require("../../../assets/images/aqi/yellow.svg").default
+    : this.state.airQualityIcon === "orange"
+    ? require("../../../assets/images/aqi/orange.svg").default
+    : require("../../../assets/images/aqi/red.svg").default
     return (
       <>
-        <div className="card aqi-container color-pallete-1">
-          <div>
+        <div className="card aqi-container color-pallete-1 inset-shadow">
+          <div className="aq-index">
             <div className="aqi-index-container">
               <span className="aqi-index">{this.state.airQualityIndex}</span>
-              <span className="aqi-title"> { this.state.airQualityIndex === "درحال بارگذاری..." ? "" : "(شاخص آلودگی هوا)"} </span>
+              <span className="aqi-title">
+                {this.state.airQualityIndex === "درحال بارگذاری..."
+                  ? ""
+                  : "(شاخص آلودگی هوا)"}{" "}
+              </span>
             </div>
             <span className="aqi-des">
               {this.state.airQualityIndex === undefined
@@ -105,7 +125,13 @@ class Pollution extends Component {
                 : this.state.airQualityDescription}
             </span>
           </div>
-          {/* <div>{airdescription}</div> */}
+          <div className="aq-icon">
+            <img
+              className="aq-icon-svg inset-shadow"
+              src={aqi}
+              alt={this.state.airQualityIcon}
+            />
+          </div>
         </div>
       </>
     );

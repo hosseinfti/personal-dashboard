@@ -12,7 +12,7 @@ class Header extends Component {
     return (
       <div className="left-side">
         <nav>
-        <ul className="card router color-pallete-1">
+        <ul className="card router color-pallete-1 inset-shadow">
             <li>
               <Link className="routerLink" to="/">
                 لیست انجام کار
@@ -33,7 +33,7 @@ class Header extends Component {
           {/* <div className="headerDate"> */}
           <div className="date-container">
             <TimeShamsi />
-            <div className="date color-pallete-2">
+            <div className="date color-pallete-2 inset-shadow">
             <DateShamsi />
             <TimeMiladi />
             <TimeHejri />
@@ -47,7 +47,7 @@ class Header extends Component {
           {/* </div> */}
           {/* </div> */}
         </nav>
-        <div className="card calender-container color-pallete-1">
+        <div className="card calender-container color-pallete-2 inset-shadow">
         <div className="calender"> ... Comming soon </div>
         </div>
       </div>

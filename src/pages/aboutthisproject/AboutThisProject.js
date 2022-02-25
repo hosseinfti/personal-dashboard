@@ -3,7 +3,7 @@ import "./style.css"
 import {Helmet} from "react-helmet"
 function AboutThisProject() {
   return (
-    <div>
+    <div className="right-side about-project-container">
       <h1 className="about-project-h1">درباره‌ی این پروژه</h1>
       <p className="about-project-p">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده

@@ -5,6 +5,7 @@ import "./style.css";
 import withRouter from "../hoc/whitRouter";
 import { Helmet } from "react-helmet";
 import queryString from "query-string";
+import plus from "../../assets/images/plus/plus-c1.svg";
 
 class TodoList extends Component {
   constructor(props) {
@@ -264,7 +265,7 @@ class TodoList extends Component {
             <div className="itemContainer1">
               <div>
                 <input
-                  className="card searchInput color-pallete-1"
+                  className="card searchInput inset-shadow"
                   type="text"
                   value={this.state.searchterm}
                   placeholder="جستجو ..."
@@ -272,13 +273,15 @@ class TodoList extends Component {
                 />
               </div>
             </div>
-            <div className="card itemContainer2 color-pallete-1">
+            <div className="card itemContainer2 color-pallete-1 inset-shadow">
               <fieldset className="filter1ItemContainer2">
                 <legend>فیلتر با ...</legend>
                 <div>
                   <button
                     className={
-                      this.state.filter === "all" ? `${"activeButton"}` : "BTN"
+                      this.state.filter === "all"
+                        ? `${"activeButton"}`
+                        : "BTN fs-BTN"
                     }
                     onClick={() => this.handleFilter("all")}
                   >
@@ -286,7 +289,9 @@ class TodoList extends Component {
                   </button>
                   <button
                     className={
-                      this.state.filter === "done" ? `${"activeButton"}` : "BTN"
+                      this.state.filter === "done"
+                        ? `${"activeButton"}`
+                        : "BTN fs-BTN"
                     }
                     onClick={() => this.handleFilter("done")}
                   >
@@ -294,7 +299,9 @@ class TodoList extends Component {
                   </button>
                   <button
                     className={
-                      this.state.filter === "todo" ? `${"activeButton"}` : "BTN"
+                      this.state.filter === "todo"
+                        ? `${"activeButton"}`
+                        : "BTN fs-BTN"
                     }
                     onClick={() => this.handleFilter("todo")}
                   >
@@ -306,17 +313,17 @@ class TodoList extends Component {
               <fieldset className="filter2ItemContainer2">
                 <legend> کدام فعالیت‌ها حذف شوند؟</legend>
                 <div>
-                  <button className="BTN" onClick={this.handleClearAll}>
+                  <button className="BTN fs-BTN" onClick={this.handleClearAll}>
                     همه‌ی فعالیت‌ها
                   </button>
-                  <button className="BTN" onClick={this.handleClearDone}>
+                  <button className="BTN fs-BTN" onClick={this.handleClearDone}>
                     انجام شده‌ها
                   </button>
                 </div>
               </fieldset>
             </div>
           </div>
-          <div className="card todolist-container color-pallete-2">
+          <div className="card todolist-container inset-shadow">
             <div className="todo-form-container">
               {/* <div className="todo-form-title">فعالیت جدید را اضافه نمایید</div> */}
               <form className="todo-form" onSubmit={this.handleSubmit}>
@@ -327,12 +334,11 @@ class TodoList extends Component {
                   className="todo-form-text"
                   placeholder="فعالیت جدید ..."
                 />
-                <input
-                  className="BTN"
-                  type="submit"
-                  value="اضافه کردن"
-                  className="todo-form-submit"
-                />
+                  <input
+                    type="image"
+                    src={plus}
+                    className="todo-form-submit"
+                  />
               </form>
             </div>
             {/* <br /> */}

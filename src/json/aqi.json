@@ -1,0 +1,18 @@
+[
+    {
+        "status": "green",
+        "src": "../../../assets/images/aqi/green.svg"
+    },
+    {
+        "status": "yellow",
+        "src": "../../../assets/images/aqi/yellow.svg"
+    },
+    {
+        "status": "orange",
+        "src": "../../../assets/images/aqi/orange.svg"
+    },
+    {
+        "status": "red",
+        "src": "../../../assets/images/aqi/red.svg"
+    }
+]

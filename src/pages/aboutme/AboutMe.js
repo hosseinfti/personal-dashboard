@@ -6,7 +6,7 @@ class AboutMe extends Component {
   
   render(){
     return (
-      <div>
+      <div className="right-side about-me-container">
       <h1 className="about-me-h1">درباره‌ی حسین</h1>
       <p className="about-me-p">
         مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار نمیداد، همه

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css"
+import bin from "../../../assets/images/bin/bin.png"
 
 class ListItem extends Component {
   render() {
@@ -11,7 +12,7 @@ class ListItem extends Component {
       };
     }
     return (
-      <div className="listItemContainer">
+      <div className="listItem">
         <input
           className="itemCheckbox"
           type="checkbox"
@@ -27,12 +28,11 @@ class ListItem extends Component {
         >
           {this.props.content}
         </span>
-        <button
-          className="itemButton BTN"
+        <img
+          src={bin}
+          className="itemButton BTN bin"
           onClick={() => this.props.handleDelete(this.props.id)}
-        >
-          حذف
-        </button>
+        />
       </div>
     );
   }
