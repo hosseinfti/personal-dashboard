@@ -72,6 +72,8 @@ class Weather extends Component {
   componentDidUpdate() {}
 
   render() {
+    
+    // const weatherIcon = require(`../../../assets/images/weather4/${this.state.iconSrc}.png`).default
 
     const weatherIcon =
       this.state.iconSrc === "storm-rain"
@@ -88,27 +90,29 @@ class Weather extends Component {
         ? require(`../../../assets/images/weather4/snow.png`).default
         : this.state.iconSrc === "heavy-snow"
         ? require(`../../../assets/images/weather4/heavy-snow.png`).default
-        : this.state.iconSrc === "haze-day" && new Intl.DateTimeFormat("fa-IR", {
-          timeStyle: "medium",
-        }).format(new Date()) >= "6:00:00" 
+        : this.state.iconSrc === "haze-day" &&
+          new Date().getHours() >= "6" &&
+          new Date().getHours() <= "18"
         ? require(`../../../assets/images/weather4/haze-day.png`).default
-        : this.state.iconSrc === "haze-day" && new Intl.DateTimeFormat("fa-IR", {
-          timeStyle: "medium",
-        }).format(new Date()) >= "18:00:00"
+        : this.state.iconSrc === "haze-day" &&
+          (new Date().getHours() >= "18" ||
+          new Date().getHours() <= "6")
         ? require(`../../../assets/images/weather4/haze-night.svg`).default
         : this.state.iconSrc === "foggy"
         ? require(`../../../assets/images/weather4/foggy.svg`).default
         : this.state.iconSrc === "tornado"
         ? require(`../../../assets/images/weather4/tornado.png`).default
-        : this.state.iconSrc === "clean-day" && new Intl.DateTimeFormat("fa-IR", {
-          timeStyle: "medium",
-        }).format(new Date()) >= "6:00:00"
+        : this.state.iconSrc === "clean-day" &&
+          new Date().getHours() >= "6" &&
+          new Date().getHours() <= "18"
         ? require(`../../../assets/images/weather4/clean-day.png`).default
-        : this.state.iconSrc === "clean-day" && new Intl.DateTimeFormat("fa-IR", {
-          timeStyle: "medium",
-        }).format(new Date()) >= "18:00:00"
+        : this.state.iconSrc === "clean-day" &&
+          (new Date().getHours() >= "18" ||
+          new Date().getHours() <= "6")
         ? require(`../../../assets/images/weather4/clean-night.svg`).default
-        : require(`../../../assets/images/weather4/cloudy.png`).default;
+        : this.state.iconSrc === "cloudy"
+        ? require(`../../../assets/images/weather4/cloudy.png`).default
+        : "";
 
     let temp =
       isNaN(this.state.weatherData) === false
@@ -117,16 +121,14 @@ class Weather extends Component {
 
     return (
       <>
-        <select
-          className="card selector-city color-pallete-1 inset-shadow"
-          value={this.state.inputCity}
-          onChange={this.handleSelectCity}
-        >
-          {this.state.cities.map((item) => {
-            return <option key={item.id}> {item.langs[0].fa} </option>;
-          })}
-        </select>
-        <div className="card weather-container color-pallete-1 inset-shadow">
+        <div className="card selector-city color-pallete-3 inset-shadow">
+          <select value={this.state.inputCity} onChange={this.handleSelectCity}>
+            {this.state.cities.map((item) => {
+              return <option key={item.id}> {item.langs[0].fa} </option>;
+            })}
+          </select>
+        </div>
+        <div className="card weather-container color-pallete-3 inset-shadow">
           <div className="temp-container">
             <div className="temp">
               <span className="temp-deg">
@@ -135,7 +137,7 @@ class Weather extends Component {
                   : ""}
               </span>
             </div>
-            <div> {temp} </div>
+            <div className="temp-des"> {temp} </div>
           </div>
           <div className="weather-icon">
             <img

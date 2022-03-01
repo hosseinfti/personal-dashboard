@@ -6,6 +6,8 @@ import withRouter from "../hoc/whitRouter";
 import { Helmet } from "react-helmet";
 import queryString from "query-string";
 import plus from "../../assets/images/plus/plus-c1.svg";
+import bin from "../../assets/images/bin/bin.svg"
+import filter from "../../assets/images/filter/filter.svg"
 
 class TodoList extends Component {
   constructor(props) {
@@ -260,7 +262,7 @@ class TodoList extends Component {
       <>
         {/* <div></div> */}
         {/* <br /> */}
-        <div className="right-side">
+        <div className="right-side color-pallete-1">
           <div className="filterContainer">
             <div className="itemContainer1">
               <div>
@@ -273,9 +275,9 @@ class TodoList extends Component {
                 />
               </div>
             </div>
-            <div className="card itemContainer2 color-pallete-1 inset-shadow">
+            <div className="card itemContainer2 color-pallete-2 inset-shadow">
               <fieldset className="filter1ItemContainer2">
-                <legend>فیلتر با ...</legend>
+                <legend><img src={filter} alt="filter" /> فیلتر با ...</legend>
                 <div>
                   <button
                     className={
@@ -311,7 +313,7 @@ class TodoList extends Component {
               </fieldset>
 
               <fieldset className="filter2ItemContainer2">
-                <legend> کدام فعالیت‌ها حذف شوند؟</legend>
+                <legend><img src={bin} alt="bin" />حذفِ ...</legend>
                 <div>
                   <button className="BTN fs-BTN" onClick={this.handleClearAll}>
                     همه‌ی فعالیت‌ها
@@ -337,6 +339,7 @@ class TodoList extends Component {
                   <input
                     type="image"
                     src={plus}
+                    alt="plus"
                     className="todo-form-submit"
                   />
               </form>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css"
+import "./style.css";
 
 class TimeMiladi extends Component {
   constructor(props) {
@@ -10,16 +10,40 @@ class TimeMiladi extends Component {
     }).format(date);
     const event = new Date();
     const weekOptions = { weekday: "long" };
-    const dateOptions = {
-      year: "numeric",
-      month: "long",
+    const dateOptionsDay = {
+      // year: "numeric",
+      // month: "long",
       day: "numeric",
     };
-    const todayMiladiDate = event.toLocaleDateString("en-GB", dateOptions);
+    const dateOptionsMounth = {
+      // year: "numeric",
+      month: "long",
+      // day: "numeric",
+    };
+    const dateOptionsYear = {
+      year: "numeric",
+      // month: "long",
+      // day: "numeric",
+    };
+    const todayMiladiDateDay = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsDay
+    );
+    const todayMiladiDateMounth = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsMounth
+    );
+    const todayMiladiDateYear = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsYear
+    );
+
     const todayMiladiweekday = event.toLocaleDateString("en-GB", weekOptions);
     this.state = {
       miladiWeekday: todayMiladiweekday,
-      miladiDate: todayMiladiDate,
+      miladiDateDay: todayMiladiDateDay,
+      miladiDateMounth: todayMiladiDateMounth,
+      miladiDateYear: todayMiladiDateYear,
       time: newTime,
     };
   }
@@ -31,16 +55,39 @@ class TimeMiladi extends Component {
     }).format(date);
     const event = new Date();
     const weekOptions = { weekday: "long" };
-    const dateOptions = {
-      year: "numeric",
-      month: "long",
+    const dateOptionsDay = {
+      // year: "numeric",
+      // month: "long",
       day: "numeric",
     };
-    const todayMiladiDate = event.toLocaleDateString("en-GB", dateOptions);
+    const dateOptionsMounth = {
+      // year: "numeric",
+      month: "long",
+      // day: "numeric",
+    };
+    const dateOptionsYear = {
+      year: "numeric",
+      // month: "long",
+      // day: "numeric",
+    };
+    const todayMiladiDateDay = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsDay
+    );
+    const todayMiladiDateMounth = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsMounth
+    );
+    const todayMiladiDateYear = event.toLocaleDateString(
+      "en-GB",
+      dateOptionsYear
+    );
     const todayMiladiweekday = event.toLocaleDateString("en-GB", weekOptions);
     this.setState(() => ({
       miladiWeekday: todayMiladiweekday,
-      miladiDate: todayMiladiDate,
+      miladiDateDay: todayMiladiDateDay,
+      miladiDateMounth: todayMiladiDateMounth,
+      miladiDateYear: todayMiladiDateYear,
       time: newTime,
     }));
   };
@@ -54,11 +101,16 @@ class TimeMiladi extends Component {
   render() {
     return (
       <>
-      {/* <div className="miladi"> */}
+        {/* <div className="miladi"> */}
         {/* <div>{this.state.weekday}</div> */}
-        <div>{this.state.miladiDate}</div>
+        <div className="miladi-date">
+          <div>{this.state.miladiDateDay}</div>
+          <div>{this.state.miladiDateMounth}</div>
+          <div>{this.state.miladiDateYear}</div>
+        </div>
         {/* <div>{this.state.time}</div> */}
-      {/* </div> */}
+
+        {/* </div> */}
       </>
     );
   }

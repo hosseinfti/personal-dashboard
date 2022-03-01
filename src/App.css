@@ -18,39 +18,51 @@
   font-family: "LightEstedad";
   src: url(./assets/fonts/Estedad/woff2/Estedad-Light.woff2) format("woff");
 }
-
+body,
+select,
+button,
+fieldset {
+  font-family: "LightEstedad";
+  color: #fff;
+}
 body {
   background-color: #2b2b2b;
   direction: rtl;
-  font-family: "RegEstedad";
+  /* font-family: "RegEstedad"; */
   margin: 0;
   max-width: 100vw;
   overflow-x: hidden;
 }
+input {
+  font-family: "LightEstedad";
+}
+button {
+  font-family: "RegEstedad";
+}
 nav {
   border-radius: 0px 0px 8px 8px;
-  /* margin-bottom: 5px; */
-  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
 }
 fieldset {
   border-radius: 10px;
   border: 1px solid #63636324;
 }
+.display-none {
+  display: none;
+}
 .inset-shadow {
-  box-shadow: inset 0px 1px 4px 0px #414141;
+  box-shadow: inset 0px 1px 4px -2px #414141;
 }
 .color-pallete-1 {
-  background-image: linear-gradient(45deg, transparent, #b9d5ff);
+  background-color: #4f74ff;
 }
 .color-pallete-2 {
-  background-color: #ffd6ce;
+  background-color: #0a155a;
 }
 .color-pallete-3 {
-  background-color: #0066ff2b;
+  background-image: linear-gradient(45deg, transparent, #0a155a);
 }
 .container {
   display: flex;
@@ -58,6 +70,14 @@ fieldset {
   flex-wrap: wrap;
   overflow-x: hidden;
   height: 100vh;
+}
+.card {
+  border-radius: 5px;
+  padding: 7px;
+  padding-inline: 5px;
+  margin: 3px;
+  margin-block: 5px;
+  width: -webkit-fill-available;
 }
 .no-result {
   text-align: center;
@@ -71,6 +91,11 @@ fieldset {
   background-color: #fff;
   border: none;
   outline: none;
+  padding-block: 5px;
+  padding-right: 14px;
+}
+.searchInput:hover {
+  box-shadow: 0px 0px 4px 1px #0a155a;
 }
 /* .plus {
   background-image: url(./assets/images/plus/add.png);
@@ -80,11 +105,12 @@ fieldset {
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: rgba(0, 0, 0, 0.659);
+  opacity: 0.5;
 }
 .BTN {
   cursor: pointer;
   /* background-color: #fff; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
   outline: none;
   padding: 8px;
   border: 1px solid #8a898942;
@@ -92,16 +118,21 @@ fieldset {
 }
 .fs-BTN {
   font-size: 12px;
-  box-shadow: 0px 1px 3px -1px #000;
+  box-shadow: 0px 3px 3px -4px #000;
+  border: none;
   background-color: transparent;
+  margin-inline: 1px;
+}
+.fs-BTN:hover {
+  box-shadow: 0px 3px 7px -4px #000;
 }
 .activeButton {
   background-color: transparent;
   border-radius: 5px;
   outline: none;
-  padding: 8px;
-  box-shadow: inset 0px 2px 5px -2px #000;
-  border: 1px solid #e1e1e1;
+  padding: 7px;
+  box-shadow: inset 0px 2px 10px -4px #000;
+  border: none;
   font-size: 12px;
 }
 legend {
@@ -112,7 +143,6 @@ legend {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: white;
   height: -webkit-fill-available;
   width: -webkit-fill-available;
   margin: 5px;
@@ -135,7 +165,6 @@ legend {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: white;
   height: -webkit-fill-available;
   width: -webkit-fill-available;
   margin: 5px;
@@ -145,10 +174,6 @@ legend {
   font-family: "BEstedad";
 }
 
-.left-side ul li {
-  font-family: "LightEstedad";
-  list-style: none;
-}
 input {
   background-color: white;
 }
@@ -156,8 +181,11 @@ input {
   width: 100%;
 } */
 .weather-container {
-  display: grid;
-  grid-template-columns: 70% 30%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  /* display: grid;
+  grid-template-columns: 70% 30%; */
   border: none;
   height: 70px;
 }
@@ -176,7 +204,10 @@ input {
   margin-right: 10px;
 }
 .temp-deg {
-  font-size: 25px;
+  font-size: 24px;
+}
+.temp-des {
+  font-size: 16px;
 }
 .weather-icon {
   display: flex;
@@ -186,17 +217,36 @@ input {
 .weather-icon-png {
   width: 66px;
 }
+.green {
+  background-color: #43b05c;
+}
+.yellow {
+  background-color: #ffe600;
+}
+.orange {
+  background-color: #ff6500;
+}
+.red {
+  background-color: #a20000e0;
+}
 .aqi-container {
-  display: grid;
-  grid-template-columns: 70% 30%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  /* display: grid;
+  grid-template-columns: 70% 30%; */
   border: none;
   height: 70px;
+}
+.undefined-aqi {
+  font-size: small;
 }
 .aq-index {
   display: flex;
   align-items: self-start;
   flex-direction: column;
   justify-content: center;
+  font-size: 24px;
 }
 .aqi-index-container {
   display: flex;
@@ -207,7 +257,7 @@ input {
   margin-right: 7px;
 }
 .aqi-des {
-  font-size: 12px;
+  font-size: 16px;
 }
 .aq-icon {
   display: flex;
@@ -234,6 +284,15 @@ input {
   flex-flow: column-reverse;
   flex-wrap: nowrap;
 }
+legend {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+legend > img {
+  width: 15px;
+  opacity: 0.2;
+}
 .itemContainer1 {
 }
 .itemContainer2 {
@@ -242,9 +301,8 @@ input {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #0066ff2b;
   border: none;
-  padding-bottom: 19px !important;
+  padding-bottom: 14px !important;
 }
 .listItem {
   /* margin-right: 5px; */
@@ -253,7 +311,10 @@ input {
   align-items: center;
   border: 1px #aaaaaa38 solid;
   margin-block: 1px;
+  margin-inline: 4px;
   font-family: "LightEstedad";
+  background-color: #0a155a;
+  border-radius: 15px;
 }
 .listItem:last-child {
   /* border-bottom: 1px #aaa solid; */
@@ -328,18 +389,28 @@ input[type="checkbox"] {
 .router {
   padding-left: 5px;
   text-align: center;
-  background-color: #0066ff2b;
   border: none;
 }
 .routerLink {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 .router li {
-  box-shadow: 0px 8px 17px -11px #929292;
+  box-shadow: 0px 8px 24px -12px #929292;
+  font-family: "LightEstedad";
+  list-style: none;
+}
+.router li:last-child {
+  box-shadow: none;
+}
+.router li:hover {
+  /* box-shadow: 0px 8px 8px -8px #929292; */
+  /* background-color: #929292; */
+  box-shadow: 0px 0px 20px -5px #010037;
+  cursor: pointer;
 }
 .todo-form-container {
-  padding-right: 8px;
+  padding-right: 4px;
 }
 .todo-form-title {
   font-size: 13px;
@@ -348,28 +419,34 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 13px;
+  margin-left: 6px;
 }
 .todo-form-text {
   width: -webkit-fill-available;
+  height: 31px;
   min-width: 10px;
-  border: none;
-  border-radius: 3px;
   outline: none;
   background-color: #f7f7f7;
-  /* box-shadow: inset 0px 0px 4px 1px; */
+  border-radius: 0px 15px 15px 0px;
   border: none;
+  padding-right: 10px;
+}
+.todo-form-text:hover {
+  box-shadow: 0px 0px 4px 1px #0a155a;
 }
 .todo-form-submit {
   width: 25px;
-  background-color: #43B05C;
+  background-color: #43b05c;
   color: #fff;
   border: none;
-  border-radius: 7px;
+  border-radius: 15px 0px 0px 15px;
   outline: none;
   padding: 2px;
-  margin-inline: 9px;
-  /* box-shadow: inset 0px 0px 4px 1px #004b37; */
+  margin-inline: 3px;
   cursor: pointer;
+}
+.todo-form-submit:hover {
+  box-shadow: 0px 0px 3px 1px #004b37;
 }
 /* .router li:last-child {
   border: none;
@@ -396,6 +473,14 @@ input[type="checkbox"] {
   text-align: center;
   border: none;
 }
+.miladi-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.miladi-date > div {
+  padding-inline: 2px;
+}
 .time-wDay {
   display: flex;
   flex-direction: column;
@@ -411,6 +496,9 @@ input[type="checkbox"] {
   width: 152px;
   text-align: center;
   border: none;
+}
+.time {
+  font-size: 24px;
 }
 .miladi {
   border: solid 1px;
@@ -433,12 +521,11 @@ input[type="checkbox"] {
   text-align: center;
 }
 .selector-city {
-  width: -webkit-fill-available;
-  border: solid 1px;
-  padding: 3px;
-  margin: 3px;
-  border-radius: 10px;
   border: none;
+  padding-block: 3px;
+}
+.selector-city:hover {
+  box-shadow: 0px 0px 10px 1px #0a155a;
   cursor: pointer;
 }
 .selctor-city,
@@ -447,9 +534,11 @@ select {
   background-color: transparent;
   border: none;
   outline: none;
-  margin-block: 10px;
+  cursor: pointer;
 }
-
+select option {
+  background-color: #0a155a;
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -465,9 +554,3 @@ select {
   background: #555;
 }
 
-@media only screen and(max-width: 750px) {
-  .no-result {
-    font-size: 30px;
-    margin-top: 40%;
-  }
-}

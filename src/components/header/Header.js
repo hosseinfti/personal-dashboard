@@ -10,9 +10,9 @@ import DateShamsi from "./time/time-shamsi/Date-Shamsi";
 class Header extends Component {
   render() {
     return (
-      <div className="left-side">
+      <div className="left-side color-pallete-1">
         <nav>
-        <ul className="card router color-pallete-1 inset-shadow">
+        <ul className="card router color-pallete-2 inset-shadow">
             <li>
               <Link className="routerLink" to="/">
                 لیست انجام کار
@@ -48,7 +48,7 @@ class Header extends Component {
           {/* </div> */}
         </nav>
         <div className="card calender-container color-pallete-2 inset-shadow">
-        <div className="calender"> ... Comming soon </div>
+        <div className="calender"> به زودی ... </div>
         </div>
       </div>
     );

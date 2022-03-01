@@ -30,6 +30,7 @@ class ListItem extends Component {
         </span>
         <img
           src={bin}
+          alt="bin"
           className="itemButton BTN bin"
           onClick={() => this.props.handleDelete(this.props.id)}
         />

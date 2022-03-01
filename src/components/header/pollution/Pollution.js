@@ -58,9 +58,13 @@ class Pollution extends Component {
         airQualityDescription: "آلودگی وحشتناکه",
         airQualityIcon: "red",
       });
+    } else {
+      this.setState({
+        airQualityDescription: undefined,
+        airQualityIcon: undefined,
+      });
     }
   };
-
 
   getPollutionData = () => {
     axios
@@ -77,7 +81,6 @@ class Pollution extends Component {
             airQualityIndex: aqi,
           },
           () => this.setAirQualityDescription()
-          // () => this.log(),
         );
       })
       .catch(Error("اطلاعات این شهر موجود نیست"));
@@ -100,34 +103,58 @@ class Pollution extends Component {
     //   this.state.airQualityIndex === undefined
     //     ? ""
     //     : this.state.airQualityDescription;
-    const aqi = this.state.airQualityIcon === "green"
-    ? require("../../../assets/images/aqi/green.svg").default
-    : this.state.airQualityIcon === "yellow"
-    ? require("../../../assets/images/aqi/yellow.svg").default
-    : this.state.airQualityIcon === "orange"
-    ? require("../../../assets/images/aqi/orange.svg").default
-    : require("../../../assets/images/aqi/red.svg").default
+    const aqi =
+      this.state.airQualityIcon === "green"
+        ? require("../../../assets/images/aqi/green.svg").default
+        : this.state.airQualityIcon === "yellow"
+        ? require("../../../assets/images/aqi/yellow.svg").default
+        : this.state.airQualityIcon === "orange"
+        ? require("../../../assets/images/aqi/orange.svg").default
+        : this.state.airQualityIcon === "red"
+        ? require("../../../assets/images/aqi/red.svg").default
+        : "";
+
+    // const aqi = require(`../../../assets/images/aqi/${this.state.airQualityIcon}.svg`).default
+
     return (
       <>
-        <div className="card aqi-container color-pallete-1 inset-shadow">
+        <div className="card aqi-container color-pallete-3 inset-shadow">
           <div className="aq-index">
             <div className="aqi-index-container">
               <span className="aqi-index">{this.state.airQualityIndex}</span>
               <span className="aqi-title">
-                {this.state.airQualityIndex === "درحال بارگذاری..."
+                {this.state.airQualityIndex === "درحال بارگذاری..." ||
+                this.state.airQualityIndex === undefined
                   ? ""
-                  : "(شاخص آلودگی هوا)"}{" "}
+                  : "(شاخص آلودگی هوا)"}
               </span>
             </div>
-            <span className="aqi-des">
-              {this.state.airQualityIndex === undefined
-                ? "شاخص آلودگی این شهر موجود نیست"
-                : this.state.airQualityDescription}
+            <span
+              className={`${
+                this.state.airQualityIndex === undefined
+                  ? "display-none"
+                  : "aqi-des"
+              }`}
+            >
+              {this.state.airQualityDescription}
+            </span>
+            <span
+              className={`${
+                this.state.airQualityIndex === undefined
+                  ? "undefined-aqi"
+                  : "display-none"
+              }`}
+            >
+              شاخص آلودگی این شهر موجود نیست
             </span>
           </div>
           <div className="aq-icon">
             <img
-              className="aq-icon-svg inset-shadow"
+              className={`aq-icon-svg inset-shadow ${
+                this.state.airQualityIcon === undefined
+                  ? "display-none"
+                  : this.state.airQualityIcon
+              } `}
               src={aqi}
               alt={this.state.airQualityIcon}
             />

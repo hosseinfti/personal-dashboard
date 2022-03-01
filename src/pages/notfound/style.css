@@ -1,0 +1,46 @@
+.not-found-container {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* .notFound-icon {
+  width: 506px;
+} */
+.notFoundEN {
+  font-size: 13px;
+  color: #212121;
+  margin-top: 5px;
+}
+.notFoundFA {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+@media only screen and (min-width: 840px) {
+  .notFound-icon {
+    width: 506px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .notFound-icon {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 370px) {
+  .notFound-icon {
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 840px) {
+  .notFound-icon {
+    width: 406px;
+  }
+}

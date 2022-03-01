@@ -6,8 +6,11 @@ class TimeShamsi extends Component {
     super(props);
     const date = new Date();
     const newTime = new Intl.DateTimeFormat("fa-IR", {
-      timeStyle: "medium",
+      // timeStyle: "short",
+      hour: "2-digit",
+      minute: "2-digit"
     }).format(date);
+    // const newTime = date.getHours() + ":" + date.getMinutes()
     const event = new Date();
     const weekOptions = { weekday: "long" };
     // const dateOptions = {
@@ -27,8 +30,11 @@ class TimeShamsi extends Component {
   updateTime = () => {
     const date = new Date();
     const newTime = new Intl.DateTimeFormat("fa-IR", {
-      timeStyle: "medium",
+      // timeStyle: "short",
+      hour: "2-digit",
+      minute: "2-digit"
     }).format(date);
+    // const newTime = date.getHours() + ":" + date.getMinutes()
     const event = new Date();
     const weekOptions = { weekday: "long" };
     // const dateOptions = {
@@ -55,7 +61,7 @@ class TimeShamsi extends Component {
     return (
       <>
         <div className="time-wDay color-pallete-2 inset-shadow">
-          <div>{this.state.time}</div>
+          <div className="time">{this.state.time}</div>
           <div>{this.state.weekday}</div>
         </div>
         {/* <div>{this.state.date}</div> */}
