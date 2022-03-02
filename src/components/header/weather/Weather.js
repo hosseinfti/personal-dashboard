@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import iranCities from "/home/hossein/Documents/Practice/ReactJs/ClassPractice/todolist/src/json/iranCities.json";
-import airConditions from "/home/hossein/Documents/Practice/ReactJs/ClassPractice/todolist/src/json/airConditions.json";
+import iranCities from "../../../json/iranCities.json";
+import airConditions from "../../../json/airConditions.json";
 import Pollution from "../pollution/Pollution";
 import "../style.css";
 // import weatherIcon from "../../../assets/images/weather/haze-night.png";
