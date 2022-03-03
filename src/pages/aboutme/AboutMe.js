@@ -32,7 +32,7 @@ class AboutMe extends Component {
                 {" "}
                 خوشحال میشم ملاحظه کنید و نظرتون رو باهام به{" "}
                 <form action="mailto:hosseinfti@yahoo.com">
-                  <button> اشتراک </button>
+                  <button className="share-idea"> اشتراک </button>
                 </form>{" "}
                 بگذارید
               </p>

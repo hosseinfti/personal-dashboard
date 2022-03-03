@@ -2,7 +2,7 @@
     background-color: white;
     color: black;
 }
-button {
+.share-idea {
     background-color: white;
     color: black;
     cursor: pointer;
@@ -13,7 +13,7 @@ form {
     
     display: inline;
 }
-button:hover {
+.share-idea:hover {
     background-color: #e1e1e1;
 }
 

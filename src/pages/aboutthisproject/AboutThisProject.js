@@ -18,7 +18,7 @@ function AboutThisProject() {
             {" "}
             ممنونم که با{" "}
             <form action="mailto:hosseinfti@yahoo.com">
-              <button> نظراتتون </button>
+              <button className="share-idea"> نظراتتون </button>
             </form>{" "}
             باعث ارتقاء داشبورد شخصی خودتون میشید :)
           </p>
