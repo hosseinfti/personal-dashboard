@@ -40,7 +40,7 @@ class AboutMe extends Component {
           </p>
         </p>
         <Helmet>
-          <title>مدیریت فعالیت‌ها | درباره‌ی من</title>
+          <title>داشبورد شخصی | درباره‌ی من</title>
         </Helmet>
       </div>
     );

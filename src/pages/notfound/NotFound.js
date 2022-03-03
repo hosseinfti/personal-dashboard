@@ -12,7 +12,7 @@ function NotFound() {
         <div className="notFoundEN">Error 404 - Page Not Found</div>
       </div>
       <Helmet>
-        <title>مدیریت فعالیت‌ها | صفحه‌ی مورد نظر یافت نشد</title>
+        <title>داشبورد شخصی | صفحه‌ی مورد نظر یافت نشد</title>
       </Helmet>
     </div>
   );

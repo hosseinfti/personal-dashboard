@@ -26,7 +26,7 @@ function AboutThisProject() {
       </p>
 
       <Helmet>
-        <title>مدیریت فعالیت‌ها | درباره‌ی این پروژه</title>
+        <title>داشبورد شخصی | درباره‌ی این پروژه</title>
       </Helmet>
     </div>
   );
