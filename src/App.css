@@ -151,6 +151,7 @@ legend {
 }
 .todolist-container {
   height: 100%;
+  padding: 0px;
   padding-right: 0px !important;
   overflow-y: hidden;
 }
@@ -419,7 +420,7 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 13px;
-  margin-left: 6px;
+  margin-left: 1px;
 }
 .todo-form-text {
   width: -webkit-fill-available;
@@ -540,7 +541,7 @@ select option {
   background-color: #0a155a;
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 1px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;

@@ -1,0 +1,17 @@
+.about-project-container {
+  background-color: white;
+  color: black;
+}
+form {
+  display: inline;
+}
+button {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #f7f7f7;
+}
+button:hover {
+  background-color: #e1e1e1;
+}

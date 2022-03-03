@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./notFound.css";
 import { Helmet } from "react-helmet";
 import notFound from "../../assets/images/notFound/notFound.svg";
 
@@ -13,6 +13,7 @@ function NotFound() {
       </div>
       <Helmet>
         <title>مدیریت فعالیت‌ها | صفحه‌ی مورد نظر یافت نشد</title>
+        <link rel="icon" type="image/x-icon" href="./checklist-icon.png" />
       </Helmet>
     </div>
   );
