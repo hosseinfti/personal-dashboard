@@ -41,7 +41,6 @@ class AboutMe extends Component {
         </p>
         <Helmet>
           <title>مدیریت فعالیت‌ها | درباره‌ی من</title>
-          <link rel="icon" type="image/x-icon" href="./checklist-icon.png" />
         </Helmet>
       </div>
     );

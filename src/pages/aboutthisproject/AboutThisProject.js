@@ -27,7 +27,6 @@ function AboutThisProject() {
 
       <Helmet>
         <title>مدیریت فعالیت‌ها | درباره‌ی این پروژه</title>
-        <link rel="icon" type="image/x-icon" href="./checklist-icon.png" />
       </Helmet>
     </div>
   );

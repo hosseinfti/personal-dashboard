@@ -13,7 +13,6 @@ function NotFound() {
       </div>
       <Helmet>
         <title>مدیریت فعالیت‌ها | صفحه‌ی مورد نظر یافت نشد</title>
-        <link rel="icon" type="image/x-icon" href="./checklist-icon.png" />
       </Helmet>
     </div>
   );
