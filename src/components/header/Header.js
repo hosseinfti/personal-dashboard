@@ -12,31 +12,25 @@ class Header extends Component {
     return (
       <div className="left-side color-pallete-1">
         <nav>
-        <ul className="card router color-pallete-2 inset-shadow">
-            <li>
-              <Link className="routerLink" to="/">
-                لیست انجام کار
-              </Link>
-            </li>
-            <li>
-              <Link className="routerLink" to="/aboutMe">
-                درباره‌ی من
-              </Link>
-            </li>
-            <li>
-              <Link className="routerLink" to="/aboutThisProject">
-                درباره‌ی این پروژه
-              </Link>
-            </li>
+          <ul className="card router color-pallete-2 inset-shadow">
+            <Link className="routerLink" to="/">
+              <li>لیست انجام کار</li>
+            </Link>
+            <Link className="routerLink" to="/aboutMe">
+              <li>درباره‌ی من</li>
+            </Link>
+            <Link className="routerLink" to="/aboutThisProject">
+              <li>درباره‌ی این پروژه</li>
+            </Link>
           </ul>
           {/* <div className="notices"> */}
           {/* <div className="headerDate"> */}
           <div className="date-container">
             <TimeShamsi />
             <div className="date color-pallete-2 inset-shadow">
-            <DateShamsi />
-            <TimeMiladi />
-            <TimeHejri />
+              <DateShamsi />
+              <TimeMiladi />
+              <TimeHejri />
             </div>
           </div>
           {/* </div> */}
@@ -48,7 +42,7 @@ class Header extends Component {
           {/* </div> */}
         </nav>
         <div className="card calender-container color-pallete-2 inset-shadow">
-        <div className="calender"> به زودی ... </div>
+          <div className="calender"> به زودی ... </div>
         </div>
       </div>
     );
