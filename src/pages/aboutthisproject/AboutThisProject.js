@@ -21,7 +21,7 @@ function AboutThisProject() {
           <a className="api-address" href="https://www.openweather.com"> openweather </a>و شاخص آلودگی
           هوا از <a className="api-address" href="https://waqi.info/"> waqi </a> گرفته می‌شه،
         </p>
-        <p>همچنین در این پروژه جهت shareable بودن فیلتر های اعمال شده یا سرچ انجام شده،از queryString استفاده شده .</p>
+        <p>همچنین در این پروژه جهت shareable بودن فیلتر های اعمال شده <br />یا سرچ انجام شده،از queryString استفاده شده .</p>
         <p>
           قالب این پروژه بصورت ساده و دور از شلوغی‌ست،
           <br />

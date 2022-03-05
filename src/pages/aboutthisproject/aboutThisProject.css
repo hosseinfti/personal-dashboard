@@ -2,6 +2,10 @@
   background-color: white;
   color: black;
 }
+.about-project-p {
+  height: 100%;
+  overflow-y: auto;
+}
 form {
   display: inline;
 }
@@ -24,4 +28,12 @@ form {
 }
 .api-address:hover {
   background-color: #e1e1e1;
+}
+@media only screen and (max-width: 740px) {
+  .about-project-h1 {
+    font-size: 22px;
+  }
+  .about-project-p {
+    font-size: 15px;
+  }
 }

@@ -9,6 +9,10 @@
     border-radius: 5px;
     border: solid 1px #f7f7f7;
 }
+.about-me-p {
+    height: 100%;
+    overflow-y: auto;
+}
 form {
     
     display: inline;
@@ -22,3 +26,14 @@ form {
     font-size: 12px;
     margin-right: 10px;
 }
+@media only screen and (max-width: 740px) {
+    .article-date {
+        font-size: 11px;
+    }
+    .about-me-h1 {
+      font-size: 22px;
+    }
+    .about-me-p {   
+      font-size: 15px;
+    }
+  }
