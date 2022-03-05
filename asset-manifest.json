@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-dashboard/static/css/main.5b84c7be.chunk.css",
+    "main.css": "/personal-dashboard/static/css/main.e99a59f8.chunk.css",
     "main.js": "/personal-dashboard/static/js/main.e2ac6271.chunk.js",
     "main.js.map": "/personal-dashboard/static/js/main.e2ac6271.chunk.js.map",
     "runtime-main.js": "/personal-dashboard/static/js/runtime-main.7ab40b63.js",
@@ -8,7 +8,7 @@
     "static/js/2.ab62a2cc.chunk.js": "/personal-dashboard/static/js/2.ab62a2cc.chunk.js",
     "static/js/2.ab62a2cc.chunk.js.map": "/personal-dashboard/static/js/2.ab62a2cc.chunk.js.map",
     "index.html": "/personal-dashboard/index.html",
-    "static/css/main.5b84c7be.chunk.css.map": "/personal-dashboard/static/css/main.5b84c7be.chunk.css.map",
+    "static/css/main.e99a59f8.chunk.css.map": "/personal-dashboard/static/css/main.e99a59f8.chunk.css.map",
     "static/js/2.ab62a2cc.chunk.js.LICENSE.txt": "/personal-dashboard/static/js/2.ab62a2cc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/personal-dashboard/static/media/Estedad-Regular.e75ee3fe.woff2",
     "static/media/bin.a6fd2950.png": "/personal-dashboard/static/media/bin.a6fd2950.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ab40b63.js",
     "static/js/2.ab62a2cc.chunk.js",
-    "static/css/main.5b84c7be.chunk.css",
+    "static/css/main.e99a59f8.chunk.css",
     "static/js/main.e2ac6271.chunk.js"
   ]
 }
