@@ -86,6 +86,11 @@ fieldset {
   margin-top: 20%;
   font-family: "XBEstedad";
 }
+@media only screen and (max-width: 310px) {
+  .no-result {
+    font-size: 30px;
+  }
+}
 .searchInput {
   width: -webkit-fill-available;
   background-color: #fff;
@@ -148,6 +153,11 @@ legend {
   margin: 5px;
   margin-left: 0px;
   padding: 10px;
+}
+@media only screen and (min-width: 530px) and (max-width: 650px) {
+  .right-side {
+    min-width: 295px;
+  }
 }
 .todolist-container {
   height: 100%;
