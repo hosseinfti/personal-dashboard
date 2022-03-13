@@ -156,7 +156,7 @@ legend {
 }
 @media only screen and (min-width: 530px) and (max-width: 650px) {
   .right-side {
-    min-width: 295px;
+    min-width: 320px;
   }
 }
 .todolist-container {
