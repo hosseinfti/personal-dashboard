@@ -354,6 +354,7 @@ legend > img {
   overflow-x: auto;
   height: 33px;
   overflow-y: auto;
+  outline: none;
 }
 .itemContent::-webkit-scrollbar {
   display: none;
