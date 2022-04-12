@@ -26,7 +26,7 @@ class Pollution extends Component {
       this.state.airQualityIndex <= 100
     ) {
       this.setState({
-        airQualityDescription: "اونقدرام آلوده نیست",
+        airQualityDescription: "اونقدرا هم تمیز نیست",
         airQualityIcon: "yellow",
       });
     } else if (
@@ -34,7 +34,7 @@ class Pollution extends Component {
       this.state.airQualityIndex <= 150
     ) {
       this.setState({
-        airQualityDescription: "یکمی آلودست",
+        airQualityDescription: "برای افراد حساس یکمی آلودست",
         airQualityIcon: "orange",
       });
     } else if (
@@ -95,14 +95,6 @@ class Pollution extends Component {
     }
   }
   render() {
-    // const airindex =
-    //   this.state.airQualityIndex === undefined
-    //     ? "شاخص آلودگی این شهر موجود نیست"
-    //     : this.state.airQualityIndex;
-    // const airdescription =
-    //   this.state.airQualityIndex === undefined
-    //     ? ""
-    //     : this.state.airQualityDescription;
     const aqi =
       this.state.airQualityIcon === "green"
         ? require("../../../assets/images/aqi/green.svg").default
