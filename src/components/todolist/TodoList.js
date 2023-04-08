@@ -327,7 +327,6 @@ class TodoList extends Component {
           </div>
           <div className="card todolist-container inset-shadow">
             <div className="todo-form-container">
-              {/* <div className="todo-form-title">فعالیت جدید را اضافه نمایید</div> */}
               <form className="todo-form" onSubmit={this.handleSubmit}>
                 <input
                   type="text"
