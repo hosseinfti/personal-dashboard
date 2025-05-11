@@ -442,6 +442,7 @@ input[type="checkbox"] {
   flex: 1;
   border: solid 1px;
   padding: 3px;
+  padding-block: 14px;
   margin-right: 3px;
   margin-block: 5px;
   margin-left: 6px;

@@ -3,9 +3,6 @@ import axios from "axios";
 import iranCities from "../../../json/iranCities.json";
 import airConditions from "../../../json/airConditions.json";
 import Pollution from "../pollution/Pollution";
-import "../style.css";
-// import weatherIcon from "../../../assets/images/weather/haze-night.png";
-// import air from "../../../json/module"
 
 class Weather extends Component {
   constructor(props) {
@@ -29,7 +26,6 @@ class Weather extends Component {
   getWeatherData = () => {
     axios
       .get(
-        // `http://api.openweathermap.org/data/2.5/weather?id=${this.state.inputId}&units=metric&appid=2166d7ffe1acb211d49ade284aa794fa`
         `https://api.openweathermap.org/data/2.5/weather?lat=${this.state.inputLat}&lon=${this.state.inputLon}&units=metric&appid=2166d7ffe1acb211d49ade284aa794fa`
       )
       .then((response) => response.data)
@@ -73,7 +69,6 @@ class Weather extends Component {
 
   render() {
     
-    // const weatherIcon = require(`../../../assets/images/weather4/${this.state.iconSrc}.png`).default
 
     const weatherIcon =
       this.state.iconSrc === "storm-rain"
